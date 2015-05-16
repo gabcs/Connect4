@@ -1,0 +1,2631 @@
+# depslib dependency file v1.0
+1426429514 source:c:\users\csabaattila\desktop\graphicsproject\main.cpp
+	"graphics.hpp"
+	<iostream>
+
+1330553510 c:\users\csabaattila\desktop\graphicsproject\include\graphics.hpp
+	<string>
+
+1428607504 source:c:\users\csabaattila\desktop\widget\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"examplecheckbox.hpp"
+	"checkbox.hpp"
+	"statictextbox.hpp"
+	"clickbox.hpp"
+	"writetextbox.hpp"
+	"advancedwritetextbox.hpp"
+	<vector>
+	<iostream>
+	<string>
+
+1330557110 c:\users\csabaattila\desktop\widget\include\graphics.hpp
+	<string>
+
+1428585152 c:\users\csabaattila\desktop\widget\widgets.hpp
+	"graphics.hpp"
+
+1428584332 c:\users\csabaattila\desktop\widget\examplecheckbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1428585152 source:c:\users\csabaattila\desktop\widget\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+
+1428584332 source:c:\users\csabaattila\desktop\widget\examplecheckbox.cpp
+	"examplecheckbox.hpp"
+	"graphics.hpp"
+
+1428585151 source:c:\users\csabaattila\desktop\widget\checkbox.cpp
+	"checkbox.hpp"
+	"graphics.hpp"
+
+1428585152 c:\users\csabaattila\desktop\widget\checkbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1428596241 c:\users\csabaattila\desktop\widget\statictextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1428596631 source:c:\users\csabaattila\desktop\widget\statictextbox.cpp
+	"statictextbox.hpp"
+	"graphics.hpp"
+
+1428598666 c:\users\csabaattila\desktop\widget\clickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1428599807 source:c:\users\csabaattila\desktop\widget\clickbox.cpp
+	"clickbox.hpp"
+	"graphics.hpp"
+
+1428601705 c:\users\csabaattila\desktop\widget\writetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1428604013 source:c:\users\csabaattila\desktop\widget\writetextbox.cpp
+	"writetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1428607504 c:\users\csabaattila\desktop\widget\advancedwritetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1428607659 source:c:\users\csabaattila\desktop\widget\advancedwritetextbox.cpp
+	"advancedwritetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1428585151 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widget\checkbox.cpp
+	"checkbox.hpp"
+	"graphics.hpp"
+
+1428585152 c:\users\csabaattila\skydrive\dokumentumok\widget\widget\checkbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1330557110 c:\users\csabaattila\skydrive\dokumentumok\widget\widget\include\graphics.hpp
+	<string>
+
+1428585152 c:\users\csabaattila\skydrive\dokumentumok\widget\widget\widgets.hpp
+	"graphics.hpp"
+
+1428599807 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widget\clickbox.cpp
+	"clickbox.hpp"
+	"graphics.hpp"
+
+1428598666 c:\users\csabaattila\skydrive\dokumentumok\widget\widget\clickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1428584332 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widget\examplecheckbox.cpp
+	"examplecheckbox.hpp"
+	"graphics.hpp"
+
+1428584332 c:\users\csabaattila\skydrive\dokumentumok\widget\widget\examplecheckbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1428656662 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widget\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"examplecheckbox.hpp"
+	"checkbox.hpp"
+	"statictextbox.hpp"
+	"clickbox.hpp"
+	"writetextbox.hpp"
+	"advancedwritetextbox.hpp"
+	"advancedclickbox.hpp"
+	"imagebox.hpp"
+	<vector>
+	<iostream>
+	<string>
+
+1428596241 c:\users\csabaattila\skydrive\dokumentumok\widget\widget\statictextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1428601705 c:\users\csabaattila\skydrive\dokumentumok\widget\widget\writetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1428607504 c:\users\csabaattila\skydrive\dokumentumok\widget\widget\advancedwritetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1428596631 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widget\statictextbox.cpp
+	"statictextbox.hpp"
+	"graphics.hpp"
+
+1428585152 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widget\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+
+1428611873 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widget\writetextbox.cpp
+	"writetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1428612420 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widget\advancedwritetextbox.cpp
+	"advancedwritetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1428613153 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widget\advancedclickbox.cpp
+	"advancedclickbox.hpp"
+	"graphics.hpp"
+
+1428613153 c:\users\csabaattila\skydrive\dokumentumok\widget\widget\advancedclickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1428656486 c:\users\csabaattila\skydrive\dokumentumok\widget\widget\imagebox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+	<fstream>
+
+1428656497 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widget\imagebox.cpp
+	"imagebox.hpp"
+	"graphics.hpp"
+	<string>
+	<fstream>
+	<iostream>
+
+1429392934 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\advancedclickbox.cpp
+	"advancedclickbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429392934 c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\advancedclickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1330557110 c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\include\graphics.hpp
+	<string>
+
+1429479040 c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\widgets.hpp
+	"graphics.hpp"
+	<string>
+
+1429393115 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\advancedwritetextbox.cpp
+	"advancedwritetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429392991 c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\advancedwritetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429393205 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\checkbox.cpp
+	"checkbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429393157 c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\checkbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429393276 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\clickbox.cpp
+	"clickbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429393227 c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\clickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1428584332 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\examplecheckbox.cpp
+	"examplecheckbox.hpp"
+	"graphics.hpp"
+
+1429392425 c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\examplecheckbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1429393488 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\imagebox.cpp
+	"imagebox.hpp"
+	"graphics.hpp"
+	<string>
+	<fstream>
+	<iostream>
+	<sstream>
+
+1429393417 c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\imagebox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429393813 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\statictextbox.cpp
+	"statictextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429393813 c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\statictextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429479082 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	<string>
+
+1429392246 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\writetextbox.cpp
+	"writetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429392225 c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\writetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429488106 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"numberclickbox.hpp"
+	"dropdownbox.hpp"
+	<vector>
+	<iostream>
+	<string>
+	<fstream>
+
+1429393566 c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\numberclickbox.hpp
+	<vector>
+	<iostream>
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"clickbox.hpp"
+	"statictextbox.hpp"
+
+1429484465 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\numberclickbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"clickbox.hpp"
+	"statictextbox.hpp"
+	"numberclickbox.hpp"
+
+1429488043 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\dropdownbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"advancedclickbox.hpp"
+	"statictextbox.hpp"
+	"staticbox.hpp"
+	"scrollbox.hpp"
+	"dropdownbox.hpp"
+
+1429474761 c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\dropdownbox.hpp
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"advancedclickbox.hpp"
+	"statictextbox.hpp"
+	"staticbox.hpp"
+
+1428955222 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\advancedbox.cpp
+	"advancedbox.hpp"
+	"graphics.hpp"
+
+1428953364 c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\advancedbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1428960867 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\radiocheckbox.cpp
+	<string>
+	<vector>
+	<fstream>
+	"graphics.hpp"
+	"clickbox.hpp"
+	"statictextbox.hpp"
+	"radiocheckbox.hpp"
+
+1428960867 c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\radiocheckbox.hpp
+	<vector>
+	<iostream>
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"checkbox.hpp"
+	"statictextbox.hpp"
+
+1429479059 c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\staticbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429479082 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\staticbox.cpp
+	"staticbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429485490 c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\scrollbox.hpp
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"clickbox.hpp"
+
+1429487118 source:c:\users\csabaattila\skydrive\dokumentumok\widget\widgetbeadandó\scrollbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"clickbox.hpp"
+	"scrollbox.hpp"
+	<iostream>
+
+1429392934 source:c:\users\csabaattila\desktop\widgetbeadandó\advancedclickbox.cpp
+	"advancedclickbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429392934 c:\users\csabaattila\desktop\widgetbeadandó\advancedclickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1330557110 c:\users\csabaattila\desktop\widgetbeadandó\include\graphics.hpp
+	<string>
+
+1429734876 c:\users\csabaattila\desktop\widgetbeadandó\widgets.hpp
+	"graphics.hpp"
+	"actions.hpp"
+	<string>
+	<map>
+
+1429393276 source:c:\users\csabaattila\desktop\widgetbeadandó\clickbox.cpp
+	"clickbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429393227 c:\users\csabaattila\desktop\widgetbeadandó\clickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429489441 source:c:\users\csabaattila\desktop\widgetbeadandó\dropdownbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"advancedclickbox.hpp"
+	"statictextbox.hpp"
+	"staticbox.hpp"
+	"scrollbox.hpp"
+	"dropdownbox.hpp"
+
+1429393813 c:\users\csabaattila\desktop\widgetbeadandó\statictextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429479059 c:\users\csabaattila\desktop\widgetbeadandó\staticbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429485490 c:\users\csabaattila\desktop\widgetbeadandó\scrollbox.hpp
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"clickbox.hpp"
+
+1429474761 c:\users\csabaattila\desktop\widgetbeadandó\dropdownbox.hpp
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"advancedclickbox.hpp"
+	"statictextbox.hpp"
+	"staticbox.hpp"
+
+1429484465 source:c:\users\csabaattila\desktop\widgetbeadandó\numberclickbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"clickbox.hpp"
+	"statictextbox.hpp"
+	"numberclickbox.hpp"
+
+1429393566 c:\users\csabaattila\desktop\widgetbeadandó\numberclickbox.hpp
+	<vector>
+	<iostream>
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"clickbox.hpp"
+	"statictextbox.hpp"
+
+1429487118 source:c:\users\csabaattila\desktop\widgetbeadandó\scrollbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"clickbox.hpp"
+	"scrollbox.hpp"
+	<iostream>
+
+1429479082 source:c:\users\csabaattila\desktop\widgetbeadandó\staticbox.cpp
+	"staticbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429393813 source:c:\users\csabaattila\desktop\widgetbeadandó\statictextbox.cpp
+	"statictextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429733506 source:c:\users\csabaattila\desktop\widgetbeadandó\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	<string>
+
+1429739514 source:c:\users\csabaattila\desktop\widgetbeadandó\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"writetextbox.hpp"
+	"button.hpp"
+	"actions.hpp"
+	"actioncopy.hpp"
+	"actionupper.hpp"
+	"actionlower.hpp"
+	"actionreverse.hpp"
+	<vector>
+	<iostream>
+	<stdlib.h>
+	<sstream>
+	<map>
+
+1428955222 source:c:\users\csabaattila\desktop\widgetbeadandó\advancedbox.cpp
+	"advancedbox.hpp"
+	"graphics.hpp"
+
+1428953364 c:\users\csabaattila\desktop\widgetbeadandó\advancedbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429733217 c:\users\csabaattila\desktop\widgetbeadandó\actions.hpp
+	<string>
+
+1429393115 source:c:\users\csabaattila\desktop\widgetbeadandó\advancedwritetextbox.cpp
+	"advancedwritetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429392991 c:\users\csabaattila\desktop\widgetbeadandó\advancedwritetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429393205 source:c:\users\csabaattila\desktop\widgetbeadandó\checkbox.cpp
+	"checkbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429393157 c:\users\csabaattila\desktop\widgetbeadandó\checkbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429393488 source:c:\users\csabaattila\desktop\widgetbeadandó\imagebox.cpp
+	"imagebox.hpp"
+	"graphics.hpp"
+	<string>
+	<fstream>
+	<iostream>
+	<sstream>
+
+1429393417 c:\users\csabaattila\desktop\widgetbeadandó\imagebox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429734237 source:c:\users\csabaattila\desktop\widgetbeadandó\actioncopy.cpp
+	"actioncopy.hpp"
+
+1429736968 c:\users\csabaattila\desktop\widgetbeadandó\actioncopy.hpp
+	"actions.hpp"
+	"writetextbox.hpp"
+	"button.hpp"
+
+1429734260 c:\users\csabaattila\desktop\widgetbeadandó\writetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429733336 source:c:\users\csabaattila\desktop\widgetbeadandó\actions.cpp
+	"actions.hpp"
+
+1429739180 source:c:\users\csabaattila\desktop\widgetbeadandó\button.cpp
+	"button.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+	<map>
+
+1429737536 c:\users\csabaattila\desktop\widgetbeadandó\button.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+	"actions.hpp"
+	<map>
+
+1429735034 source:c:\users\csabaattila\desktop\widgetbeadandó\writetextbox.cpp
+	"writetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429736857 source:c:\users\csabaattila\desktop\widgetbeadandó\actionupper.cpp
+	"actionupper.hpp"
+	<cctype>
+
+1429736968 c:\users\csabaattila\desktop\widgetbeadandó\actionupper.hpp
+	"actions.hpp"
+	"writetextbox.hpp"
+	"button.hpp"
+
+1429738890 source:c:\users\csabaattila\desktop\widgetbeadandó\actionlower.cpp
+	"actionlower.hpp"
+	<cctype>
+
+1429738890 c:\users\csabaattila\desktop\widgetbeadandó\actionlower.hpp
+	"actions.hpp"
+	"writetextbox.hpp"
+	"button.hpp"
+
+1429739497 source:c:\users\csabaattila\desktop\widgetbeadandó\actionreverse.cpp
+	"actionreverse.hpp"
+	<cctype>
+
+1429739380 c:\users\csabaattila\desktop\widgetbeadandó\actionreverse.hpp
+	"actions.hpp"
+	"writetextbox.hpp"
+	"button.hpp"
+
+1429784694 source:c:\users\gabcs\downloads\widgetbeadandó\actions.cpp
+	"actions.hpp"
+
+1429784695 c:\users\gabcs\downloads\widgetbeadandó\actions.hpp
+	<string>
+
+1429784695 source:c:\users\gabcs\downloads\widgetbeadandó\advancedbox.cpp
+	"advancedbox.hpp"
+	"graphics.hpp"
+
+1429784695 c:\users\gabcs\downloads\widgetbeadandó\advancedbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784693 c:\users\gabcs\downloads\widgetbeadandó\include\graphics.hpp
+	<string>
+
+1429784695 c:\users\gabcs\downloads\widgetbeadandó\widgets.hpp
+	"graphics.hpp"
+	"actions.hpp"
+	<string>
+	<map>
+
+1429784694 source:c:\users\gabcs\downloads\widgetbeadandó\advancedwritetextbox.cpp
+	"advancedwritetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429784695 c:\users\gabcs\downloads\widgetbeadandó\advancedwritetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 source:c:\users\gabcs\downloads\widgetbeadandó\button.cpp
+	"button.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+	<map>
+
+1429784695 c:\users\gabcs\downloads\widgetbeadandó\button.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+	"actions.hpp"
+	<map>
+
+1429784695 source:c:\users\gabcs\downloads\widgetbeadandó\checkbox.cpp
+	"checkbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429784695 c:\users\gabcs\downloads\widgetbeadandó\checkbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 source:c:\users\gabcs\downloads\widgetbeadandó\clickbox.cpp
+	"clickbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429784695 c:\users\gabcs\downloads\widgetbeadandó\clickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 source:c:\users\gabcs\downloads\widgetbeadandó\dropdownbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"advancedclickbox.hpp"
+	"statictextbox.hpp"
+	"staticbox.hpp"
+	"scrollbox.hpp"
+	"dropdownbox.hpp"
+
+1429784695 c:\users\gabcs\downloads\widgetbeadandó\advancedclickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 c:\users\gabcs\downloads\widgetbeadandó\statictextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 c:\users\gabcs\downloads\widgetbeadandó\staticbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 c:\users\gabcs\downloads\widgetbeadandó\scrollbox.hpp
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"clickbox.hpp"
+
+1429784695 c:\users\gabcs\downloads\widgetbeadandó\dropdownbox.hpp
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"advancedclickbox.hpp"
+	"statictextbox.hpp"
+	"staticbox.hpp"
+
+1429784695 source:c:\users\gabcs\downloads\widgetbeadandó\imagebox.cpp
+	"imagebox.hpp"
+	"graphics.hpp"
+	<string>
+	<fstream>
+	<iostream>
+	<sstream>
+
+1429784695 c:\users\gabcs\downloads\widgetbeadandó\imagebox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 source:c:\users\gabcs\downloads\widgetbeadandó\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"writetextbox.hpp"
+	"button.hpp"
+	"actions.hpp"
+	"actioncopy.hpp"
+	"actionupper.hpp"
+	"actionlower.hpp"
+	"actionreverse.hpp"
+	<vector>
+	<iostream>
+	<stdlib.h>
+	<sstream>
+	<map>
+
+1429784695 c:\users\gabcs\downloads\widgetbeadandó\writetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 c:\users\gabcs\downloads\widgetbeadandó\actioncopy.hpp
+	"actions.hpp"
+	"writetextbox.hpp"
+	"button.hpp"
+
+1429784695 c:\users\gabcs\downloads\widgetbeadandó\actionupper.hpp
+	"actions.hpp"
+	"writetextbox.hpp"
+	"button.hpp"
+
+1429784695 c:\users\gabcs\downloads\widgetbeadandó\actionlower.hpp
+	"actions.hpp"
+	"writetextbox.hpp"
+	"button.hpp"
+
+1429784695 c:\users\gabcs\downloads\widgetbeadandó\actionreverse.hpp
+	"actions.hpp"
+	"writetextbox.hpp"
+	"button.hpp"
+
+1429784695 source:c:\users\gabcs\downloads\widgetbeadandó\numberclickbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"clickbox.hpp"
+	"statictextbox.hpp"
+	"numberclickbox.hpp"
+
+1429784695 c:\users\gabcs\downloads\widgetbeadandó\numberclickbox.hpp
+	<vector>
+	<iostream>
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"clickbox.hpp"
+	"statictextbox.hpp"
+
+1429784695 source:c:\users\gabcs\downloads\widgetbeadandó\scrollbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"clickbox.hpp"
+	"scrollbox.hpp"
+	<iostream>
+
+1429784695 source:c:\users\gabcs\downloads\widgetbeadandó\staticbox.cpp
+	"staticbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429784695 source:c:\users\gabcs\downloads\widgetbeadandó\statictextbox.cpp
+	"statictextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429784695 source:c:\users\gabcs\downloads\widgetbeadandó\actioncopy.cpp
+	"actioncopy.hpp"
+
+1429784778 source:c:\users\gabcs\downloads\widgetbeadandó\actionlower.cpp
+	"actionlower.hpp"
+	<cctype>
+
+1429784695 source:c:\users\gabcs\downloads\widgetbeadandó\actionreverse.cpp
+	"actionreverse.hpp"
+	<cctype>
+
+1429784817 source:c:\users\gabcs\downloads\widgetbeadandó\actionupper.cpp
+	"actionupper.hpp"
+	<cctype>
+
+1429784695 source:c:\users\gabcs\downloads\widgetbeadandó\advancedclickbox.cpp
+	"advancedclickbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429784695 source:c:\users\gabcs\downloads\widgetbeadandó\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	<string>
+
+1429784695 source:c:\users\gabcs\downloads\widgetbeadandó\writetextbox.cpp
+	"writetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429784695 source:c:\users\gabcs\desktop\widgetbeadandó\actioncopy.cpp
+	"actioncopy.hpp"
+
+1429784695 c:\users\gabcs\desktop\widgetbeadandó\actioncopy.hpp
+	"actions.hpp"
+	"writetextbox.hpp"
+	"button.hpp"
+
+1429784695 c:\users\gabcs\desktop\widgetbeadandó\actions.hpp
+	<string>
+
+1429784695 c:\users\gabcs\desktop\widgetbeadandó\writetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784693 c:\users\gabcs\desktop\widgetbeadandó\include\graphics.hpp
+	<string>
+
+1429788923 c:\users\gabcs\desktop\widgetbeadandó\widgets.hpp
+	"graphics.hpp"
+	"actions.hpp"
+	<string>
+
+1429790117 c:\users\gabcs\desktop\widgetbeadandó\button.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"application.hpp"
+	<string>
+
+1429784778 source:c:\users\gabcs\desktop\widgetbeadandó\actionlower.cpp
+	"actionlower.hpp"
+	<cctype>
+
+1429784695 c:\users\gabcs\desktop\widgetbeadandó\actionlower.hpp
+	"actions.hpp"
+	"writetextbox.hpp"
+	"button.hpp"
+
+1429784695 source:c:\users\gabcs\desktop\widgetbeadandó\actionreverse.cpp
+	"actionreverse.hpp"
+	<cctype>
+
+1429784695 c:\users\gabcs\desktop\widgetbeadandó\actionreverse.hpp
+	"actions.hpp"
+	"writetextbox.hpp"
+	"button.hpp"
+
+1429784694 source:c:\users\gabcs\desktop\widgetbeadandó\actions.cpp
+	"actions.hpp"
+
+1429784817 source:c:\users\gabcs\desktop\widgetbeadandó\actionupper.cpp
+	"actionupper.hpp"
+	<cctype>
+
+1429784695 c:\users\gabcs\desktop\widgetbeadandó\actionupper.hpp
+	"actions.hpp"
+	"writetextbox.hpp"
+	"button.hpp"
+
+1429784695 source:c:\users\gabcs\desktop\widgetbeadandó\advancedbox.cpp
+	"advancedbox.hpp"
+	"graphics.hpp"
+
+1429784695 c:\users\gabcs\desktop\widgetbeadandó\advancedbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 source:c:\users\gabcs\desktop\widgetbeadandó\advancedclickbox.cpp
+	"advancedclickbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429784695 c:\users\gabcs\desktop\widgetbeadandó\advancedclickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784694 source:c:\users\gabcs\desktop\widgetbeadandó\advancedwritetextbox.cpp
+	"advancedwritetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429784695 c:\users\gabcs\desktop\widgetbeadandó\advancedwritetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1430392569 source:c:\users\gabcs\desktop\widgetbeadandó\button.cpp
+	"button.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429784695 source:c:\users\gabcs\desktop\widgetbeadandó\checkbox.cpp
+	"checkbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429784695 c:\users\gabcs\desktop\widgetbeadandó\checkbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 source:c:\users\gabcs\desktop\widgetbeadandó\clickbox.cpp
+	"clickbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429784695 c:\users\gabcs\desktop\widgetbeadandó\clickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 source:c:\users\gabcs\desktop\widgetbeadandó\dropdownbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"advancedclickbox.hpp"
+	"statictextbox.hpp"
+	"staticbox.hpp"
+	"scrollbox.hpp"
+	"dropdownbox.hpp"
+
+1429784695 c:\users\gabcs\desktop\widgetbeadandó\statictextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 c:\users\gabcs\desktop\widgetbeadandó\staticbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 c:\users\gabcs\desktop\widgetbeadandó\scrollbox.hpp
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"clickbox.hpp"
+
+1429784695 c:\users\gabcs\desktop\widgetbeadandó\dropdownbox.hpp
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"advancedclickbox.hpp"
+	"statictextbox.hpp"
+	"staticbox.hpp"
+
+1429784695 source:c:\users\gabcs\desktop\widgetbeadandó\imagebox.cpp
+	"imagebox.hpp"
+	"graphics.hpp"
+	<string>
+	<fstream>
+	<iostream>
+	<sstream>
+
+1429784695 c:\users\gabcs\desktop\widgetbeadandó\imagebox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1430398415 source:c:\users\gabcs\desktop\widgetbeadandó\main.cpp
+	"application.hpp"
+	"exitbutton.hpp"
+	"window.hpp"
+	"writetextbox.hpp"
+	"pingbutton.hpp"
+	"fstream"
+	"statictextbox.hpp"
+
+1429784695 source:c:\users\gabcs\desktop\widgetbeadandó\numberclickbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"clickbox.hpp"
+	"statictextbox.hpp"
+	"numberclickbox.hpp"
+
+1429784695 c:\users\gabcs\desktop\widgetbeadandó\numberclickbox.hpp
+	<vector>
+	<iostream>
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"clickbox.hpp"
+	"statictextbox.hpp"
+
+1429784695 source:c:\users\gabcs\desktop\widgetbeadandó\scrollbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"clickbox.hpp"
+	"scrollbox.hpp"
+	<iostream>
+
+1429784695 source:c:\users\gabcs\desktop\widgetbeadandó\staticbox.cpp
+	"staticbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429784695 source:c:\users\gabcs\desktop\widgetbeadandó\statictextbox.cpp
+	"statictextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429784695 source:c:\users\gabcs\desktop\widgetbeadandó\writetextbox.cpp
+	"writetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429789789 source:c:\users\gabcs\desktop\widgetbeadandó\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	<string>
+
+1429785279 c:\users\gabcs\desktop\widgetbeadandó\application.hpp
+	"widgets.hpp"
+	<vector>
+
+1430392772 c:\users\gabcs\desktop\widgetbeadandó\exitbutton.hpp
+	"button.hpp"
+	"application.hpp"
+
+1430398238 source:c:\users\gabcs\desktop\widgetbeadandó\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"pingbutton.hpp"
+	"writetextbox.hpp"
+
+1430396339 c:\users\gabcs\desktop\widgetbeadandó\window.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+	<fstream>
+
+1430398238 source:c:\users\gabcs\desktop\widgetbeadandó\window.cpp
+	"graphics.hpp"
+	"window.hpp"
+	<vector>
+	<string>
+	<fstream>
+	<iostream>
+
+1430398552 c:\users\gabcs\desktop\widgetbeadandó\pingbutton.hpp
+	"button.hpp"
+	"application.hpp"
+	<windows.h>
+	"fstream"
+	"window.hpp"
+	<iostream>
+
+1429788295 source:c:\users\csabaattila\desktop\gyak10\widgetbeadandó\advancedbox.cpp
+	"advancedbox.hpp"
+	"graphics.hpp"
+
+1429788295 c:\users\csabaattila\desktop\gyak10\widgetbeadandó\advancedbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788293 c:\users\csabaattila\desktop\gyak10\widgetbeadandó\include\graphics.hpp
+	<string>
+
+1429792523 c:\users\csabaattila\desktop\gyak10\widgetbeadandó\widgets.hpp
+	"graphics.hpp"
+	"actions.hpp"
+	<string>
+
+1429788295 c:\users\csabaattila\desktop\gyak10\widgetbeadandó\actions.hpp
+	<string>
+
+1429788295 source:c:\users\csabaattila\desktop\gyak10\widgetbeadandó\advancedclickbox.cpp
+	"advancedclickbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429788295 c:\users\csabaattila\desktop\gyak10\widgetbeadandó\advancedclickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788294 source:c:\users\csabaattila\desktop\gyak10\widgetbeadandó\advancedwritetextbox.cpp
+	"advancedwritetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429788295 c:\users\csabaattila\desktop\gyak10\widgetbeadandó\advancedwritetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1430651467 source:c:\users\csabaattila\desktop\gyak10\widgetbeadandó\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"pingbutton.hpp"
+	"writetextbox.hpp"
+
+1429788879 c:\users\csabaattila\desktop\gyak10\widgetbeadandó\application.hpp
+	"widgets.hpp"
+	<vector>
+
+1430652583 c:\users\csabaattila\desktop\gyak10\widgetbeadandó\pingbutton.hpp
+	"button.hpp"
+	"application.hpp"
+	<windows.h>
+	"fstream"
+	"window.hpp"
+	<iostream>
+	"writetextbox.hpp"
+	<string.h>
+	<cstring>
+
+1429793717 c:\users\csabaattila\desktop\gyak10\widgetbeadandó\button.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"application.hpp"
+	<string>
+
+1430399939 c:\users\csabaattila\desktop\gyak10\widgetbeadandó\window.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+	<fstream>
+
+1429788295 c:\users\csabaattila\desktop\gyak10\widgetbeadandó\writetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1430396169 source:c:\users\csabaattila\desktop\gyak10\widgetbeadandó\button.cpp
+	"button.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429788295 source:c:\users\csabaattila\desktop\gyak10\widgetbeadandó\checkbox.cpp
+	"checkbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429788295 c:\users\csabaattila\desktop\gyak10\widgetbeadandó\checkbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788295 source:c:\users\csabaattila\desktop\gyak10\widgetbeadandó\clickbox.cpp
+	"clickbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429788295 c:\users\csabaattila\desktop\gyak10\widgetbeadandó\clickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788295 source:c:\users\csabaattila\desktop\gyak10\widgetbeadandó\dropdownbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"advancedclickbox.hpp"
+	"statictextbox.hpp"
+	"staticbox.hpp"
+	"scrollbox.hpp"
+	"dropdownbox.hpp"
+
+1429788295 c:\users\csabaattila\desktop\gyak10\widgetbeadandó\statictextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788295 c:\users\csabaattila\desktop\gyak10\widgetbeadandó\staticbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788295 c:\users\csabaattila\desktop\gyak10\widgetbeadandó\scrollbox.hpp
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"clickbox.hpp"
+
+1429788295 c:\users\csabaattila\desktop\gyak10\widgetbeadandó\dropdownbox.hpp
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"advancedclickbox.hpp"
+	"statictextbox.hpp"
+	"staticbox.hpp"
+
+1429788295 source:c:\users\csabaattila\desktop\gyak10\widgetbeadandó\imagebox.cpp
+	"imagebox.hpp"
+	"graphics.hpp"
+	<string>
+	<fstream>
+	<iostream>
+	<sstream>
+
+1429788295 c:\users\csabaattila\desktop\gyak10\widgetbeadandó\imagebox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1430651389 source:c:\users\csabaattila\desktop\gyak10\widgetbeadandó\main.cpp
+	"application.hpp"
+	"exitbutton.hpp"
+	"window.hpp"
+	"writetextbox.hpp"
+	"pingbutton.hpp"
+	"fstream"
+	"statictextbox.hpp"
+
+1430396372 c:\users\csabaattila\desktop\gyak10\widgetbeadandó\exitbutton.hpp
+	"button.hpp"
+	"application.hpp"
+
+1429788295 source:c:\users\csabaattila\desktop\gyak10\widgetbeadandó\numberclickbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"clickbox.hpp"
+	"statictextbox.hpp"
+	"numberclickbox.hpp"
+
+1429788295 c:\users\csabaattila\desktop\gyak10\widgetbeadandó\numberclickbox.hpp
+	<vector>
+	<iostream>
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"clickbox.hpp"
+	"statictextbox.hpp"
+
+1429788295 source:c:\users\csabaattila\desktop\gyak10\widgetbeadandó\scrollbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"clickbox.hpp"
+	"scrollbox.hpp"
+	<iostream>
+
+1429788295 source:c:\users\csabaattila\desktop\gyak10\widgetbeadandó\staticbox.cpp
+	"staticbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429788295 source:c:\users\csabaattila\desktop\gyak10\widgetbeadandó\statictextbox.cpp
+	"statictextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429793389 source:c:\users\csabaattila\desktop\gyak10\widgetbeadandó\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	<string>
+
+1430401838 source:c:\users\csabaattila\desktop\gyak10\widgetbeadandó\window.cpp
+	"graphics.hpp"
+	"window.hpp"
+	<vector>
+	<string>
+	<fstream>
+	<iostream>
+
+1430649602 source:c:\users\csabaattila\desktop\gyak10\widgetbeadandó\writetextbox.cpp
+	"writetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429788295 source:c:\users\csabaattila\desktop\gyak10\beolvasó\advancedbox.cpp
+	"advancedbox.hpp"
+	"graphics.hpp"
+
+1429788295 c:\users\csabaattila\desktop\gyak10\beolvasó\advancedbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788293 c:\users\csabaattila\desktop\gyak10\beolvasó\include\graphics.hpp
+	<string>
+
+1429792523 c:\users\csabaattila\desktop\gyak10\beolvasó\widgets.hpp
+	"graphics.hpp"
+	"actions.hpp"
+	<string>
+
+1429788295 c:\users\csabaattila\desktop\gyak10\beolvasó\actions.hpp
+	<string>
+
+1429788295 source:c:\users\csabaattila\desktop\gyak10\beolvasó\advancedclickbox.cpp
+	"advancedclickbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429788295 c:\users\csabaattila\desktop\gyak10\beolvasó\advancedclickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788294 source:c:\users\csabaattila\desktop\gyak10\beolvasó\advancedwritetextbox.cpp
+	"advancedwritetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429788295 c:\users\csabaattila\desktop\gyak10\beolvasó\advancedwritetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1430651467 source:c:\users\csabaattila\desktop\gyak10\beolvasó\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"pingbutton.hpp"
+	"writetextbox.hpp"
+
+1429788879 c:\users\csabaattila\desktop\gyak10\beolvasó\application.hpp
+	"widgets.hpp"
+	<vector>
+
+1430687088 c:\users\csabaattila\desktop\gyak10\beolvasó\pingbutton.hpp
+	"button.hpp"
+	"application.hpp"
+	<windows.h>
+	"fstream"
+	"window.hpp"
+	<iostream>
+	"writetextbox.hpp"
+	<string.h>
+	<cstring>
+
+1429793717 c:\users\csabaattila\desktop\gyak10\beolvasó\button.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"application.hpp"
+	<string>
+
+1430688368 c:\users\csabaattila\desktop\gyak10\beolvasó\window.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+	<fstream>
+
+1429788295 c:\users\csabaattila\desktop\gyak10\beolvasó\writetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1430396169 source:c:\users\csabaattila\desktop\gyak10\beolvasó\button.cpp
+	"button.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429788295 source:c:\users\csabaattila\desktop\gyak10\beolvasó\checkbox.cpp
+	"checkbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429788295 c:\users\csabaattila\desktop\gyak10\beolvasó\checkbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788295 source:c:\users\csabaattila\desktop\gyak10\beolvasó\clickbox.cpp
+	"clickbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429788295 c:\users\csabaattila\desktop\gyak10\beolvasó\clickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788295 source:c:\users\csabaattila\desktop\gyak10\beolvasó\dropdownbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"advancedclickbox.hpp"
+	"statictextbox.hpp"
+	"staticbox.hpp"
+	"scrollbox.hpp"
+	"dropdownbox.hpp"
+
+1429788295 c:\users\csabaattila\desktop\gyak10\beolvasó\statictextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788295 c:\users\csabaattila\desktop\gyak10\beolvasó\staticbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788295 c:\users\csabaattila\desktop\gyak10\beolvasó\scrollbox.hpp
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"clickbox.hpp"
+
+1429788295 c:\users\csabaattila\desktop\gyak10\beolvasó\dropdownbox.hpp
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"advancedclickbox.hpp"
+	"statictextbox.hpp"
+	"staticbox.hpp"
+
+1429788295 source:c:\users\csabaattila\desktop\gyak10\beolvasó\imagebox.cpp
+	"imagebox.hpp"
+	"graphics.hpp"
+	<string>
+	<fstream>
+	<iostream>
+	<sstream>
+
+1429788295 c:\users\csabaattila\desktop\gyak10\beolvasó\imagebox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788295 source:c:\users\csabaattila\desktop\gyak10\beolvasó\numberclickbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"clickbox.hpp"
+	"statictextbox.hpp"
+	"numberclickbox.hpp"
+
+1429788295 c:\users\csabaattila\desktop\gyak10\beolvasó\numberclickbox.hpp
+	<vector>
+	<iostream>
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"clickbox.hpp"
+	"statictextbox.hpp"
+
+1429788295 source:c:\users\csabaattila\desktop\gyak10\beolvasó\scrollbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"clickbox.hpp"
+	"scrollbox.hpp"
+	<iostream>
+
+1429788295 source:c:\users\csabaattila\desktop\gyak10\beolvasó\staticbox.cpp
+	"staticbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429788295 source:c:\users\csabaattila\desktop\gyak10\beolvasó\statictextbox.cpp
+	"statictextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429793389 source:c:\users\csabaattila\desktop\gyak10\beolvasó\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	<string>
+
+1430688368 source:c:\users\csabaattila\desktop\gyak10\beolvasó\window.cpp
+	"graphics.hpp"
+	"window.hpp"
+	<vector>
+	<string>
+	<fstream>
+	<iostream>
+
+1430649602 source:c:\users\csabaattila\desktop\gyak10\beolvasó\writetextbox.cpp
+	"writetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1430688368 source:c:\users\csabaattila\desktop\gyak10\beolvasó\main.cpp
+	"application.hpp"
+	"exitbutton.hpp"
+	"window.hpp"
+	"writetextbox.hpp"
+	"pingbutton.hpp"
+	"fstream"
+	"statictextbox.hpp"
+
+1430396372 c:\users\csabaattila\desktop\gyak10\beolvasó\exitbutton.hpp
+	"button.hpp"
+	"application.hpp"
+
+1429784695 source:c:\users\gabcs\desktop\beolvasó\advancedbox.cpp
+	"advancedbox.hpp"
+	"graphics.hpp"
+
+1429784695 c:\users\gabcs\desktop\beolvasó\advancedbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784693 c:\users\gabcs\desktop\beolvasó\include\graphics.hpp
+	<string>
+
+1429788923 c:\users\gabcs\desktop\beolvasó\widgets.hpp
+	"graphics.hpp"
+	"actions.hpp"
+	<string>
+
+1429784695 c:\users\gabcs\desktop\beolvasó\actions.hpp
+	<string>
+
+1429784695 source:c:\users\gabcs\desktop\beolvasó\advancedclickbox.cpp
+	"advancedclickbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429784695 c:\users\gabcs\desktop\beolvasó\advancedclickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784694 source:c:\users\gabcs\desktop\beolvasó\advancedwritetextbox.cpp
+	"advancedwritetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429784695 c:\users\gabcs\desktop\beolvasó\advancedwritetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1430647867 source:c:\users\gabcs\desktop\beolvasó\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"pingbutton.hpp"
+	"writetextbox.hpp"
+
+1429785279 c:\users\gabcs\desktop\beolvasó\application.hpp
+	"widgets.hpp"
+	<vector>
+
+1430683488 c:\users\gabcs\desktop\beolvasó\pingbutton.hpp
+	"button.hpp"
+	"application.hpp"
+	<windows.h>
+	"fstream"
+	"window.hpp"
+	<iostream>
+	"writetextbox.hpp"
+	<string.h>
+	<cstring>
+
+1429790117 c:\users\gabcs\desktop\beolvasó\button.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"application.hpp"
+	<string>
+
+1430684768 c:\users\gabcs\desktop\beolvasó\window.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+	<fstream>
+
+1429784695 c:\users\gabcs\desktop\beolvasó\writetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1430392569 source:c:\users\gabcs\desktop\beolvasó\button.cpp
+	"button.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429784695 source:c:\users\gabcs\desktop\beolvasó\checkbox.cpp
+	"checkbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429784695 c:\users\gabcs\desktop\beolvasó\checkbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 source:c:\users\gabcs\desktop\beolvasó\clickbox.cpp
+	"clickbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429784695 c:\users\gabcs\desktop\beolvasó\clickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 source:c:\users\gabcs\desktop\beolvasó\dropdownbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"advancedclickbox.hpp"
+	"statictextbox.hpp"
+	"staticbox.hpp"
+	"scrollbox.hpp"
+	"dropdownbox.hpp"
+
+1429784695 c:\users\gabcs\desktop\beolvasó\statictextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 c:\users\gabcs\desktop\beolvasó\staticbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 c:\users\gabcs\desktop\beolvasó\scrollbox.hpp
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"clickbox.hpp"
+
+1429784695 c:\users\gabcs\desktop\beolvasó\dropdownbox.hpp
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"advancedclickbox.hpp"
+	"statictextbox.hpp"
+	"staticbox.hpp"
+
+1429784695 source:c:\users\gabcs\desktop\beolvasó\imagebox.cpp
+	"imagebox.hpp"
+	"graphics.hpp"
+	<string>
+	<fstream>
+	<iostream>
+	<sstream>
+
+1429784695 c:\users\gabcs\desktop\beolvasó\imagebox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1430684768 source:c:\users\gabcs\desktop\beolvasó\main.cpp
+	"application.hpp"
+	"exitbutton.hpp"
+	"window.hpp"
+	"writetextbox.hpp"
+	"pingbutton.hpp"
+	"fstream"
+	"statictextbox.hpp"
+
+1430392772 c:\users\gabcs\desktop\beolvasó\exitbutton.hpp
+	"button.hpp"
+	"application.hpp"
+
+1429784695 source:c:\users\gabcs\desktop\beolvasó\numberclickbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"clickbox.hpp"
+	"statictextbox.hpp"
+	"numberclickbox.hpp"
+
+1429784695 c:\users\gabcs\desktop\beolvasó\numberclickbox.hpp
+	<vector>
+	<iostream>
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"clickbox.hpp"
+	"statictextbox.hpp"
+
+1429784695 source:c:\users\gabcs\desktop\beolvasó\scrollbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"clickbox.hpp"
+	"scrollbox.hpp"
+	<iostream>
+
+1429784695 source:c:\users\gabcs\desktop\beolvasó\staticbox.cpp
+	"staticbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429784695 source:c:\users\gabcs\desktop\beolvasó\statictextbox.cpp
+	"statictextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429789789 source:c:\users\gabcs\desktop\beolvasó\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	<string>
+
+1430685511 source:c:\users\gabcs\desktop\beolvasó\window.cpp
+	"graphics.hpp"
+	"window.hpp"
+	<vector>
+	<string>
+	<fstream>
+	<iostream>
+
+1430646002 source:c:\users\gabcs\desktop\beolvasó\writetextbox.cpp
+	"writetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429784695 source:c:\users\gabcs\desktop\szamologep\advancedbox.cpp
+	"advancedbox.hpp"
+	"graphics.hpp"
+
+1429784695 c:\users\gabcs\desktop\szamologep\advancedbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784693 c:\users\gabcs\desktop\szamologep\include\graphics.hpp
+	<string>
+
+1429788923 c:\users\gabcs\desktop\szamologep\widgets.hpp
+	"graphics.hpp"
+	"actions.hpp"
+	<string>
+
+1429784695 c:\users\gabcs\desktop\szamologep\actions.hpp
+	<string>
+
+1429784695 source:c:\users\gabcs\desktop\szamologep\advancedclickbox.cpp
+	"advancedclickbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429784695 c:\users\gabcs\desktop\szamologep\advancedclickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784694 source:c:\users\gabcs\desktop\szamologep\advancedwritetextbox.cpp
+	"advancedwritetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429784695 c:\users\gabcs\desktop\szamologep\advancedwritetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1430995468 source:c:\users\gabcs\desktop\szamologep\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"pingbutton.hpp"
+	"writetextbox.hpp"
+
+1429785279 c:\users\gabcs\desktop\szamologep\application.hpp
+	"widgets.hpp"
+	<vector>
+
+1430683488 c:\users\gabcs\desktop\szamologep\pingbutton.hpp
+	"button.hpp"
+	"application.hpp"
+	<windows.h>
+	"fstream"
+	"window.hpp"
+	<iostream>
+	"writetextbox.hpp"
+	<string.h>
+	<cstring>
+
+1429790117 c:\users\gabcs\desktop\szamologep\button.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"application.hpp"
+	<string>
+
+1430684768 c:\users\gabcs\desktop\szamologep\window.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+	<fstream>
+
+1429784695 c:\users\gabcs\desktop\szamologep\writetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1430997540 source:c:\users\gabcs\desktop\szamologep\button.cpp
+	"button.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429784695 source:c:\users\gabcs\desktop\szamologep\checkbox.cpp
+	"checkbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429784695 c:\users\gabcs\desktop\szamologep\checkbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 source:c:\users\gabcs\desktop\szamologep\clickbox.cpp
+	"clickbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429784695 c:\users\gabcs\desktop\szamologep\clickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 source:c:\users\gabcs\desktop\szamologep\dropdownbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"advancedclickbox.hpp"
+	"statictextbox.hpp"
+	"staticbox.hpp"
+	"scrollbox.hpp"
+	"dropdownbox.hpp"
+
+1429784695 c:\users\gabcs\desktop\szamologep\statictextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 c:\users\gabcs\desktop\szamologep\staticbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 c:\users\gabcs\desktop\szamologep\scrollbox.hpp
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"clickbox.hpp"
+
+1429784695 c:\users\gabcs\desktop\szamologep\dropdownbox.hpp
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"advancedclickbox.hpp"
+	"statictextbox.hpp"
+	"staticbox.hpp"
+
+1429784695 source:c:\users\gabcs\desktop\szamologep\imagebox.cpp
+	"imagebox.hpp"
+	"graphics.hpp"
+	<string>
+	<fstream>
+	<iostream>
+	<sstream>
+
+1429784695 c:\users\gabcs\desktop\szamologep\imagebox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429784695 source:c:\users\gabcs\desktop\szamologep\numberclickbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"clickbox.hpp"
+	"statictextbox.hpp"
+	"numberclickbox.hpp"
+
+1429784695 c:\users\gabcs\desktop\szamologep\numberclickbox.hpp
+	<vector>
+	<iostream>
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"clickbox.hpp"
+	"statictextbox.hpp"
+
+1429784695 source:c:\users\gabcs\desktop\szamologep\scrollbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"clickbox.hpp"
+	"scrollbox.hpp"
+	<iostream>
+
+1429784695 source:c:\users\gabcs\desktop\szamologep\staticbox.cpp
+	"staticbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429784695 source:c:\users\gabcs\desktop\szamologep\statictextbox.cpp
+	"statictextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429789789 source:c:\users\gabcs\desktop\szamologep\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	<string>
+
+1430685511 source:c:\users\gabcs\desktop\szamologep\window.cpp
+	"graphics.hpp"
+	"window.hpp"
+	<vector>
+	<string>
+	<fstream>
+	<iostream>
+
+1430646002 source:c:\users\gabcs\desktop\szamologep\writetextbox.cpp
+	"writetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1431000455 source:c:\users\gabcs\desktop\szamologep\main.cpp
+	"application.hpp"
+	"statictextbox.hpp"
+	"button_number.hpp"
+	"buttun_operations.hpp"
+
+1430996575 c:\users\gabcs\desktop\szamologep\button_number-hpp.h
+	"graphics.hpp"
+	"widgets.hpp"
+	"button.hpp"
+
+1430999466 c:\users\gabcs\desktop\szamologep\button_number.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"button.hpp"
+	<string>
+	"application.hpp"
+
+1430999466 source:c:\users\gabcs\desktop\szamologep\button_number.cpp
+	"button_number.hpp"
+	"button.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1431000276 source:c:\users\gabcs\desktop\szamologep\buttun_operations.cpp
+	"buttun_operations.hpp"
+	"button.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1431000254 c:\users\gabcs\desktop\szamologep\buttun_operations.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"button.hpp"
+	<string>
+	"application.hpp"
+
+1429788295 source:c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\advancedbox.cpp
+	"advancedbox.hpp"
+	"graphics.hpp"
+
+1429788295 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\advancedbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788293 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\include\graphics.hpp
+	<string>
+
+1429792523 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\widgets.hpp
+	"graphics.hpp"
+	"actions.hpp"
+	<string>
+
+1429788295 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\actions.hpp
+	<string>
+
+1429788295 source:c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\advancedclickbox.cpp
+	"advancedclickbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429788295 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\advancedclickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788294 source:c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\advancedwritetextbox.cpp
+	"advancedwritetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429788295 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\advancedwritetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1431033451 source:c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"pingbutton.hpp"
+	"writetextbox.hpp"
+
+1429788879 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\application.hpp
+	"widgets.hpp"
+	<vector>
+
+1430687088 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\pingbutton.hpp
+	"button.hpp"
+	"application.hpp"
+	<windows.h>
+	"fstream"
+	"window.hpp"
+	<iostream>
+	"writetextbox.hpp"
+	<string.h>
+	<cstring>
+
+1429793717 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\button.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"application.hpp"
+	<string>
+
+1430688368 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\window.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+	<fstream>
+
+1429788295 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\writetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1431001140 source:c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\button.cpp
+	"button.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1431030067 source:c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\button_number.cpp
+	"button_number.hpp"
+	"button.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	"button_equal.hpp"
+	<string>
+
+1431033327 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\button_number.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"button.hpp"
+	<string>
+	"application.hpp"
+	"button_equal.hpp"
+
+1429788295 source:c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\checkbox.cpp
+	"checkbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429788295 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\checkbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788295 source:c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\clickbox.cpp
+	"clickbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429788295 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\clickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788295 source:c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\dropdownbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"advancedclickbox.hpp"
+	"statictextbox.hpp"
+	"staticbox.hpp"
+	"scrollbox.hpp"
+	"dropdownbox.hpp"
+
+1429788295 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\statictextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788295 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\staticbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788295 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\scrollbox.hpp
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"clickbox.hpp"
+
+1429788295 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\dropdownbox.hpp
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"advancedclickbox.hpp"
+	"statictextbox.hpp"
+	"staticbox.hpp"
+
+1429788295 source:c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\imagebox.cpp
+	"imagebox.hpp"
+	"graphics.hpp"
+	<string>
+	<fstream>
+	<iostream>
+	<sstream>
+
+1429788295 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\imagebox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788295 source:c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\numberclickbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"clickbox.hpp"
+	"statictextbox.hpp"
+	"numberclickbox.hpp"
+
+1429788295 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\numberclickbox.hpp
+	<vector>
+	<iostream>
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"clickbox.hpp"
+	"statictextbox.hpp"
+
+1429788295 source:c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\scrollbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"clickbox.hpp"
+	"scrollbox.hpp"
+	<iostream>
+
+1429788295 source:c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\staticbox.cpp
+	"staticbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429788295 source:c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\statictextbox.cpp
+	"statictextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429793389 source:c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	<string>
+
+1430689111 source:c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\window.cpp
+	"graphics.hpp"
+	"window.hpp"
+	<vector>
+	<string>
+	<fstream>
+	<iostream>
+
+1430649602 source:c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\writetextbox.cpp
+	"writetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1431030736 source:c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\button_operations.cpp
+	"button_operations.hpp"
+	"button.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	"button_equal.hpp"
+	<string>
+
+1431030772 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\button_operations.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"button.hpp"
+	<string>
+	"application.hpp"
+	"button_equal.hpp"
+
+1431030736 source:c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\button_delete.cpp
+	"button_delete.hpp"
+	"button.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	"button_equal.hpp"
+	<string>
+
+1431030772 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\button_delete.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"button.hpp"
+	<string>
+	"application.hpp"
+	"button_equal.hpp"
+
+1431035061 source:c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\button_equal.cpp
+	"button_equal.hpp"
+	"button.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+	"statictextbox.hpp"
+
+1431089860 c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\button_equal.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"button.hpp"
+	<string>
+	<cstdlib>
+	"application.hpp"
+	"statictextbox.hpp"
+
+1431030802 source:c:\users\csabaattila\desktop\gyak11\11gyak\szamologep\main.cpp
+	"application.hpp"
+	"statictextbox.hpp"
+	"button_number.hpp"
+	"button_operations.hpp"
+	"button_delete.hpp"
+	"button_equal.hpp"
+
+1429788295 source:c:\users\csabaattila\desktop\amoba\advancedbox.cpp
+	"advancedbox.hpp"
+	"graphics.hpp"
+
+1429788295 c:\users\csabaattila\desktop\amoba\advancedbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788293 c:\users\csabaattila\desktop\amoba\include\graphics.hpp
+	<string>
+
+1429792523 c:\users\csabaattila\desktop\amoba\widgets.hpp
+	"graphics.hpp"
+	"actions.hpp"
+	<string>
+
+1429788295 c:\users\csabaattila\desktop\amoba\actions.hpp
+	<string>
+
+1429788295 source:c:\users\csabaattila\desktop\amoba\advancedclickbox.cpp
+	"advancedclickbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429788295 c:\users\csabaattila\desktop\amoba\advancedclickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788294 source:c:\users\csabaattila\desktop\amoba\advancedwritetextbox.cpp
+	"advancedwritetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429788295 c:\users\csabaattila\desktop\amoba\advancedwritetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1431718601 source:c:\users\csabaattila\desktop\amoba\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+
+1431718601 c:\users\csabaattila\desktop\amoba\application.hpp
+	"widgets.hpp"
+	<vector>
+
+1430687088 c:\users\csabaattila\desktop\amoba\pingbutton.hpp
+	"button.hpp"
+	"application.hpp"
+	<windows.h>
+	"fstream"
+	"window.hpp"
+	<iostream>
+	"writetextbox.hpp"
+	<string.h>
+	<cstring>
+
+1429793717 c:\users\csabaattila\desktop\amoba\button.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"application.hpp"
+	<string>
+
+1430688368 c:\users\csabaattila\desktop\amoba\window.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+	<fstream>
+
+1429788295 c:\users\csabaattila\desktop\amoba\writetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1431001140 source:c:\users\csabaattila\desktop\amoba\button.cpp
+	"button.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1431030736 source:c:\users\csabaattila\desktop\amoba\button_delete.cpp
+	"button_delete.hpp"
+	"button.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	"button_equal.hpp"
+	<string>
+
+1431030772 c:\users\csabaattila\desktop\amoba\button_delete.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"button.hpp"
+	<string>
+	"application.hpp"
+	"button_equal.hpp"
+
+1431089932 c:\users\csabaattila\desktop\amoba\button_equal.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"button.hpp"
+	<string>
+	<cstdlib>
+	"application.hpp"
+	"statictextbox.hpp"
+
+1429788295 c:\users\csabaattila\desktop\amoba\statictextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1431035061 source:c:\users\csabaattila\desktop\amoba\button_equal.cpp
+	"button_equal.hpp"
+	"button.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+	"statictextbox.hpp"
+
+1431030067 source:c:\users\csabaattila\desktop\amoba\button_number.cpp
+	"button_number.hpp"
+	"button.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	"button_equal.hpp"
+	<string>
+
+1431033327 c:\users\csabaattila\desktop\amoba\button_number.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"button.hpp"
+	<string>
+	"application.hpp"
+	"button_equal.hpp"
+
+1431030736 source:c:\users\csabaattila\desktop\amoba\button_operations.cpp
+	"button_operations.hpp"
+	"button.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	"button_equal.hpp"
+	<string>
+
+1431030772 c:\users\csabaattila\desktop\amoba\button_operations.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"button.hpp"
+	<string>
+	"application.hpp"
+	"button_equal.hpp"
+
+1429788295 source:c:\users\csabaattila\desktop\amoba\checkbox.cpp
+	"checkbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429788295 c:\users\csabaattila\desktop\amoba\checkbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788295 source:c:\users\csabaattila\desktop\amoba\clickbox.cpp
+	"clickbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429788295 c:\users\csabaattila\desktop\amoba\clickbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788295 source:c:\users\csabaattila\desktop\amoba\dropdownbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"advancedclickbox.hpp"
+	"statictextbox.hpp"
+	"staticbox.hpp"
+	"scrollbox.hpp"
+	"dropdownbox.hpp"
+
+1429788295 c:\users\csabaattila\desktop\amoba\staticbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788295 c:\users\csabaattila\desktop\amoba\scrollbox.hpp
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"clickbox.hpp"
+
+1429788295 c:\users\csabaattila\desktop\amoba\dropdownbox.hpp
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"advancedclickbox.hpp"
+	"statictextbox.hpp"
+	"staticbox.hpp"
+
+1429788295 source:c:\users\csabaattila\desktop\amoba\imagebox.cpp
+	"imagebox.hpp"
+	"graphics.hpp"
+	<string>
+	<fstream>
+	<iostream>
+	<sstream>
+
+1429788295 c:\users\csabaattila\desktop\amoba\imagebox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1429788295 source:c:\users\csabaattila\desktop\amoba\numberclickbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"clickbox.hpp"
+	"statictextbox.hpp"
+	"numberclickbox.hpp"
+
+1429788295 c:\users\csabaattila\desktop\amoba\numberclickbox.hpp
+	<vector>
+	<iostream>
+	<string>
+	<vector>
+	"graphics.hpp"
+	"widgets.hpp"
+	"clickbox.hpp"
+	"statictextbox.hpp"
+
+1429788295 source:c:\users\csabaattila\desktop\amoba\scrollbox.cpp
+	<string>
+	<sstream>
+	<vector>
+	"graphics.hpp"
+	"clickbox.hpp"
+	"scrollbox.hpp"
+	<iostream>
+
+1429788295 source:c:\users\csabaattila\desktop\amoba\staticbox.cpp
+	"staticbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429788295 source:c:\users\csabaattila\desktop\amoba\statictextbox.cpp
+	"statictextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429793389 source:c:\users\csabaattila\desktop\amoba\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	<string>
+
+1430689111 source:c:\users\csabaattila\desktop\amoba\window.cpp
+	"graphics.hpp"
+	"window.hpp"
+	<vector>
+	<string>
+	<fstream>
+	<iostream>
+
+1430649602 source:c:\users\csabaattila\desktop\amoba\writetextbox.cpp
+	"writetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1431800506 source:c:\users\csabaattila\desktop\amoba\main.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"amoba.hpp"
+
+1431721063 source:c:\users\csabaattila\desktop\amoba\table.cpp
+	"table.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+
+1431721292 c:\users\csabaattila\desktop\amoba\table.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1431800361 source:c:\users\csabaattila\desktop\amoba\amoba.cpp
+	"amoba.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+
+1431799957 c:\users\csabaattila\desktop\amoba\amoba.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
