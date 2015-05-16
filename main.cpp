@@ -1,6 +1,9 @@
 #include "application.hpp"
 #include "graphics.hpp"
 #include "amoba.hpp"
+#include "tabla.hpp"
+#include "select_button.hpp"
+#include "button.hpp"
 
 using namespace std;
 using namespace genv;
@@ -8,15 +11,18 @@ using namespace genv;
 int main()
 {
     Application app(640,480, "Potyogtatós amőba");
-    Amoba* a1 = new Amoba(150,20,30,30);
-    app.addWidget(a1);
-    a1->set_pont('a');
-    Amoba* a2 = new Amoba(150,50,30,30);
-    app.addWidget(a2);
-    a2->set_pont('b');
-    Amoba* a3 = new Amoba(150,80,30,30);
-    app.addWidget(a3);
-    a3->set_pont('c');
+
+    Select_Button* sb = new Select_Button(500,400,30,30);
+    app.addWidget(sb);
+    Amoba* a = new Amoba(530,400,30,30);
+    app.addWidget(a);
+    sb->set_A(a);
+
+    Button* b =  new Button(600,20,30,30,"OK");
+    app.addWidget(b);
+    Tabla* t = new Tabla(20,20,50,50);
+    app.addWidget(t);
+
     app.run();
 
     return 0;

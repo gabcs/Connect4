@@ -2,7 +2,6 @@
 #define WIDGETS_HPP_INCLUDED
 
 #include "graphics.hpp"
-#include "actions.hpp"
 #include <string>
 
 using namespace genv;
