@@ -4,7 +4,7 @@
 #include "graphics.hpp"
 #include "widgets.hpp"
 #include "amoba.hpp"
-#include "button.hpp"
+#include "button_select.hpp"
 
 #include <vector>
 
@@ -15,6 +15,7 @@ class Tabla : public Widget
 {
 protected:
     vector< vector<Widget*> > w;
+    vector<Widget*> b;
     int amoba_size_x, amoba_size_y;
 public:
     Tabla(int _x, int _y, int _size_x, int _size_y);

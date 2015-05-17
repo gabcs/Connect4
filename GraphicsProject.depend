@@ -2406,27 +2406,25 @@
 	"widgets.hpp"
 	<string>
 
-1431815671 source:c:\users\csabaattila\desktop\amoba\button.cpp
+1431816390 source:c:\users\csabaattila\desktop\amoba\button.cpp
 	"button.hpp"
 	"graphics.hpp"
 	<string>
 	<sstream>
 
-1431030736 source:c:\users\csabaattila\desktop\amoba\button_delete.cpp
+1431857046 source:c:\users\csabaattila\desktop\amoba\button_delete.cpp
 	"button_delete.hpp"
 	"button.hpp"
 	"graphics.hpp"
 	"widgets.hpp"
-	"button_equal.hpp"
 	<string>
 
-1431030772 c:\users\csabaattila\desktop\amoba\button_delete.hpp
+1431857186 c:\users\csabaattila\desktop\amoba\button_delete.hpp
 	"graphics.hpp"
 	"widgets.hpp"
 	"button.hpp"
 	<string>
 	"application.hpp"
-	"button_equal.hpp"
 
 1431089932 c:\users\csabaattila\desktop\amoba\button_equal.hpp
 	"graphics.hpp"
@@ -2605,12 +2603,11 @@
 	"graphics.hpp"
 	<string>
 
-1431815892 source:c:\users\csabaattila\desktop\amoba\main.cpp
+1431857306 source:c:\users\csabaattila\desktop\amoba\main.cpp
 	"application.hpp"
 	"graphics.hpp"
 	"amoba.hpp"
 	"tabla.hpp"
-	"select_button.hpp"
 	"button.hpp"
 
 1431721063 source:c:\users\csabaattila\desktop\amoba\table.cpp
@@ -2633,32 +2630,46 @@
 
 1431801452 source:c:\users\csabaattila\desktop\amoba\jatekmester.cpp
 
-1431816301 source:c:\users\csabaattila\desktop\amoba\tabla.cpp
+1431858789 source:c:\users\csabaattila\desktop\amoba\tabla.cpp
 	"tabla.hpp"
 	"graphics.hpp"
 	"widgets.hpp"
-	"select_button.hpp"
 	"amoba.hpp"
+	"button_select.hpp"
 	<vector>
 
-1431814550 c:\users\csabaattila\desktop\amoba\tabla.hpp
+1431858789 c:\users\csabaattila\desktop\amoba\tabla.hpp
 	"graphics.hpp"
 	"widgets.hpp"
 	"amoba.hpp"
-	"button.hpp"
+	"button_select.hpp"
 	<vector>
 
-1431815572 source:c:\users\csabaattila\desktop\amoba\select_button.cpp
+1431855623 source:c:\users\csabaattila\desktop\amoba\select_button.cpp
 	"select_button.hpp"
 	"graphics.hpp"
 	"widgets.hpp"
 	"button.hpp"
-	"amoba.hpp"
 
-1431816301 c:\users\csabaattila\desktop\amoba\select_button.hpp
+1431855623 c:\users\csabaattila\desktop\amoba\select_button.hpp
 	"graphics.hpp"
 	"widgets.hpp"
 	"button.hpp"
 	"application.hpp"
-	"amoba.hpp"
+
+1431857449 source:c:\users\csabaattila\desktop\amoba\button_select.cpp
+	"button_select.hpp"
+	"button.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1431858789 c:\users\csabaattila\desktop\amoba\button_select.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"button.hpp"
+	<string>
+	<vector>
+	"application.hpp"
+	"tabla.hpp"
 

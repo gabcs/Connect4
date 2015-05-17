@@ -46,11 +46,11 @@
 		<Unit filename="application.hpp" />
 		<Unit filename="button.cpp" />
 		<Unit filename="button.hpp" />
+		<Unit filename="button_select.cpp" />
+		<Unit filename="button_select.hpp" />
 		<Unit filename="jatekmester.cpp" />
 		<Unit filename="jatekmester.hpp" />
 		<Unit filename="main.cpp" />
-		<Unit filename="select_button.cpp" />
-		<Unit filename="select_button.hpp" />
 		<Unit filename="statictextbox.cpp" />
 		<Unit filename="statictextbox.hpp" />
 		<Unit filename="tabla.cpp" />

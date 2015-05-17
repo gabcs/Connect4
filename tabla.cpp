@@ -2,8 +2,8 @@
 
 #include "graphics.hpp"
 #include "widgets.hpp"
-#include "select_button.hpp"
 #include "amoba.hpp"
+#include "button_select.hpp"
 
 #include <vector>
 
@@ -18,13 +18,11 @@ Tabla::Tabla(int _x, int _y, int _size_x, int _size_y)
         for(unsigned int i = 0; i <= 6; i++)
         {
            vector<Widget*> t;
-           for(unsigned int j=0; j<=6; j++)
+
+           Button_Select* bs = new Button_Select(x+i*amoba_size_x,y,amoba_size_x,amoba_size_y);
+           b.push_back(bs);
+           for(unsigned int j=0; j<=5; j++)
            {
-               if(j==0)
-                {
-                    Select_Button* sb = new Select_Button(x+i*amoba_size_x,y,amoba_size_x,amoba_size_y);
-                    t.push_back(sb);
-                }
                Amoba* a = new Amoba( x+i*amoba_size_x, y+(j+1)*amoba_size_y, amoba_size_x, amoba_size_y );
                t.push_back(a);
            }
@@ -36,7 +34,8 @@ void Tabla::draw()
 {
     for(unsigned int i = 0; i <= 6; i++)
     {
-        for(unsigned int j  = 0; j <= 6; j++)
+        b[i]->draw();
+        for(unsigned int j  = 0; j <= 5; j++)
         {
             w[i][j]->draw();
         }
@@ -45,7 +44,10 @@ void Tabla::draw()
 
 void Tabla::handle(event ev)
 {
-
+    for(unsigned int i = 0; i <= 6; i++)
+    {
+        b[i]->handle(ev);
+    }
 }
 
 void Tabla::action()
