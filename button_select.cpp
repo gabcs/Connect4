@@ -9,9 +9,11 @@ using namespace std;
 using namespace genv;
 
 Button_Select::Button_Select( int x, int y, int size_x, int size_y)
-           :Button( x, y, size_x, size_y, "." )
+           :Button( x, y, size_x, size_y, "" )
 {
     a = NULL;
+    bs = NULL;
+    szin = 'a';
 }
 
 void Button_Select::draw()
@@ -37,11 +39,15 @@ void Button_Select::handle(event ev)
 
 void Button_Select::action()
 {
-    //a->set_pont('b');
-    jatek_mester.lepes(amoba_oszlop);
+    jatek_mester.lepes(amoba_oszlop,szin);
 }
 
 void Button_Select::set_vector(vector<Widget*> &amobak)
 {
     amoba_oszlop = amobak;
+}
+
+void Button_Select::set_data(char _szin)
+{
+    szin = _szin;
 }

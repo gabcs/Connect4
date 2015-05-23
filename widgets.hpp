@@ -36,6 +36,7 @@ class Widget {
         virtual char get_pont(){}
         virtual void set_pont(char new_pont){}
         virtual void set_vector(vector<Widget*> &w){}
+        virtual void set_data(char _szin) {}
 
         void set_focus( bool focus );
         bool is_focused() const { return inFocus;   }               // Fókuszban van-e még a widget

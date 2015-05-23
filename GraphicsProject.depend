@@ -2342,9 +2342,10 @@
 1429788293 c:\users\csabaattila\desktop\amoba\include\graphics.hpp
 	<string>
 
-1431813066 c:\users\csabaattila\desktop\amoba\widgets.hpp
+1431866021 c:\users\csabaattila\desktop\amoba\widgets.hpp
 	"graphics.hpp"
 	<string>
+	<vector>
 
 1429788295 c:\users\csabaattila\desktop\amoba\actions.hpp
 	<string>
@@ -2624,13 +2625,19 @@
 	"graphics.hpp"
 	"widgets.hpp"
 
-1431799957 c:\users\csabaattila\desktop\amoba\amoba.hpp
+1431865720 c:\users\csabaattila\desktop\amoba\amoba.hpp
 	"graphics.hpp"
 	"widgets.hpp"
 
-1431801452 source:c:\users\csabaattila\desktop\amoba\jatekmester.cpp
+1431865804 source:c:\users\csabaattila\desktop\amoba\jatekmester.cpp
+	"jatekmester.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	"amoba.hpp"
+	"tabla.hpp"
+	"button_select.hpp"
 
-1431858789 source:c:\users\csabaattila\desktop\amoba\tabla.cpp
+1431865720 source:c:\users\csabaattila\desktop\amoba\tabla.cpp
 	"tabla.hpp"
 	"graphics.hpp"
 	"widgets.hpp"
@@ -2657,14 +2664,15 @@
 	"button.hpp"
 	"application.hpp"
 
-1431857449 source:c:\users\csabaattila\desktop\amoba\button_select.cpp
+1431862088 source:c:\users\csabaattila\desktop\amoba\button_select.cpp
 	"button_select.hpp"
 	"button.hpp"
 	"graphics.hpp"
 	"widgets.hpp"
+	"tabla.hpp"
 	<string>
 
-1431858789 c:\users\csabaattila\desktop\amoba\button_select.hpp
+1431865729 c:\users\csabaattila\desktop\amoba\button_select.hpp
 	"graphics.hpp"
 	"widgets.hpp"
 	"button.hpp"
@@ -2672,4 +2680,126 @@
 	<vector>
 	"application.hpp"
 	"tabla.hpp"
+	"amoba.hpp"
+
+1431865820 c:\users\csabaattila\desktop\amoba\jatekmester.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1431800361 source:c:\users\csabaattila\desktop\csabi\amoba\amoba.cpp
+	"amoba.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+
+1431865720 c:\users\csabaattila\desktop\csabi\amoba\amoba.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1429788293 c:\users\csabaattila\desktop\csabi\amoba\include\graphics.hpp
+	<string>
+
+1432419010 c:\users\csabaattila\desktop\csabi\amoba\widgets.hpp
+	"graphics.hpp"
+	<string>
+	<vector>
+
+1431718601 source:c:\users\csabaattila\desktop\csabi\amoba\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+
+1431718601 c:\users\csabaattila\desktop\csabi\amoba\application.hpp
+	"widgets.hpp"
+	<vector>
+
+1431816390 source:c:\users\csabaattila\desktop\csabi\amoba\button.cpp
+	"button.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1429793717 c:\users\csabaattila\desktop\csabi\amoba\button.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"application.hpp"
+	<string>
+
+1432420641 source:c:\users\csabaattila\desktop\csabi\amoba\button_select.cpp
+	"button_select.hpp"
+	"button.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	"tabla.hpp"
+	<string>
+
+1432420635 c:\users\csabaattila\desktop\csabi\amoba\button_select.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"button.hpp"
+	<string>
+	<vector>
+	"application.hpp"
+	"tabla.hpp"
+	"amoba.hpp"
+	"jatekmester.hpp"
+
+1432418522 c:\users\csabaattila\desktop\csabi\amoba\tabla.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"amoba.hpp"
+	"button_select.hpp"
+	<vector>
+
+1432417014 source:c:\users\csabaattila\desktop\csabi\amoba\jatekmester.cpp
+	"jatekmester.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	"amoba.hpp"
+	"tabla.hpp"
+	"button_select.hpp"
+
+1432417014 c:\users\csabaattila\desktop\csabi\amoba\jatekmester.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1431857306 source:c:\users\csabaattila\desktop\csabi\amoba\main.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"amoba.hpp"
+	"tabla.hpp"
+	"button.hpp"
+
+1429788295 source:c:\users\csabaattila\desktop\csabi\amoba\statictextbox.cpp
+	"statictextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429788295 c:\users\csabaattila\desktop\csabi\amoba\statictextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1432418921 source:c:\users\csabaattila\desktop\csabi\amoba\tabla.cpp
+	"tabla.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	"amoba.hpp"
+	"button_select.hpp"
+	<vector>
+
+1429793389 source:c:\users\csabaattila\desktop\csabi\amoba\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	<string>
+
+1430649602 source:c:\users\csabaattila\desktop\csabi\amoba\writetextbox.cpp
+	"writetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1429788295 c:\users\csabaattila\desktop\csabi\amoba\writetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
 

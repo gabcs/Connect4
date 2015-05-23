@@ -29,6 +29,9 @@ Tabla::Tabla(int _x, int _y, int _size_x, int _size_y)
            }
            w.push_back(t);
         }
+    for(unsigned int i = 0; i <= 6; i++){ b[i]->set_vector(w[i]); }
+    szin = 'b';
+    lepesszam = 0;
 }
 
 void Tabla::draw()
@@ -45,10 +48,11 @@ void Tabla::draw()
 
 void Tabla::handle(event ev)
 {
+    szin =
     for(unsigned int i = 0; i <= 6; i++)
     {
+        b[i]->set_data(szin);
         b[i]->handle(ev);
-        b[i]->set_vector(w[i]);
     }
 }
 

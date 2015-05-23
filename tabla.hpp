@@ -17,6 +17,8 @@ protected:
     vector< vector<Widget*> > w;
     vector<Widget*> b;
     int amoba_size_x, amoba_size_y;
+    char szin;
+    unsigned int lepesszam;
 public:
     Tabla(int _x, int _y, int _size_x, int _size_y);
 

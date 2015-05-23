@@ -14,11 +14,11 @@ JatekMester::JatekMester( )
 
 }
 
-void JatekMester::lepes(vector<Widget*> &amobak)
+void JatekMester::lepes(vector<Widget*> &amobak, char szin)
 {
     am = amobak;
     for(int i = amobak.size()-1; i > -1; i--)
     {
-        if(amobak[i]->get_pont() == 'a'){ amobak[i]->set_pont('b'); i = -1; }
+        if(amobak[i]->get_pont() == 'a'){ amobak[i]->set_pont(szin); i = -1; }
     }
 }

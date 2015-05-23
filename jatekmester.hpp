@@ -15,7 +15,7 @@ protected:
     vector<Widget*> am;
 public:
     JatekMester( );
-    void lepes(vector<Widget*> &amobak);
+    void lepes(vector<Widget*> &amobak, char szin);
 };
 
 
