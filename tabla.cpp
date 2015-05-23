@@ -25,6 +25,7 @@ Tabla::Tabla(int _x, int _y, int _size_x, int _size_y)
            {
                Amoba* a = new Amoba( x+i*amoba_size_x, y+(j+1)*amoba_size_y, amoba_size_x, amoba_size_y );
                t.push_back(a);
+               bs->set_a(a);
            }
            w.push_back(t);
         }
@@ -47,6 +48,7 @@ void Tabla::handle(event ev)
     for(unsigned int i = 0; i <= 6; i++)
     {
         b[i]->handle(ev);
+        b[i]->set_vector(w[i]);
     }
 }
 

@@ -11,7 +11,7 @@ using namespace genv;
 Button_Select::Button_Select( int x, int y, int size_x, int size_y)
            :Button( x, y, size_x, size_y, "." )
 {
-
+    a = NULL;
 }
 
 void Button_Select::draw()
@@ -37,5 +37,11 @@ void Button_Select::handle(event ev)
 
 void Button_Select::action()
 {
+    //a->set_pont('b');
+    jatek_mester.lepes(amoba_oszlop);
+}
 
+void Button_Select::set_vector(vector<Widget*> &amobak)
+{
+    amoba_oszlop = amobak;
 }

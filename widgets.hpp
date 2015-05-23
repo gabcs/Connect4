@@ -3,6 +3,7 @@
 
 #include "graphics.hpp"
 #include <string>
+#include <vector>
 
 using namespace genv;
 using namespace std;
@@ -32,6 +33,9 @@ class Widget {
         virtual int get_clicked();
         virtual void set_y(int _y);
         virtual void action() {}
+        virtual char get_pont(){}
+        virtual void set_pont(char new_pont){}
+        virtual void set_vector(vector<Widget*> &w){}
 
         void set_focus( bool focus );
         bool is_focused() const { return inFocus;   }               // Fókuszban van-e még a widget
