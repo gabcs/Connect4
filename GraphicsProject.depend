@@ -2724,7 +2724,7 @@
 	"application.hpp"
 	<string>
 
-1432465110 source:c:\users\csabaattila\desktop\csabi\amoba\button_select.cpp
+1432465658 source:c:\users\csabaattila\desktop\csabi\amoba\button_select.cpp
 	"button_select.hpp"
 	"button.hpp"
 	"graphics.hpp"
@@ -2758,7 +2758,7 @@
 	"tabla.hpp"
 	"button_select.hpp"
 
-1432462793 c:\users\csabaattila\desktop\csabi\amoba\jatekmester.hpp
+1432468098 c:\users\csabaattila\desktop\csabi\amoba\jatekmester.hpp
 	"graphics.hpp"
 	"widgets.hpp"
 	<vector>

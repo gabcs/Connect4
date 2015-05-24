@@ -5,13 +5,14 @@
 #include "amoba.hpp"
 #include "tabla.hpp"
 #include "button_select.hpp"
+#include <iostream>
 
 using namespace genv;
 using namespace std;
 
 JatekMester::JatekMester( )
 {
-    lepesszam = 0;
+    nyer == false;
 }
 
 void JatekMester::lepes(vector<Widget*> &amobak, char szin)
@@ -28,7 +29,14 @@ void JatekMester::nyert(vector<vector<Widget*> > &w)
     {
         for(int j = 0; j < 6; j++)
         {
-
+            char jatekos = w[i][j]->get_pont();
+            ///egy sorban van-e a négy
+            if(j-3 >= 0&& j+3 < 7)
+            {
+                nyer = w[i][j-3]->get_pont() == w[i][j-2]->get_pont() == w[i][j-1]->get_pont() == w[i][j]->get_pont();
+                cout << nyer << endl;
+            }
         }
     }
+    if(nyer == true){gout << move_to(200,400) << text("nyert");}
 }

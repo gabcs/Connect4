@@ -12,7 +12,7 @@ using namespace std;
 class JatekMester
 {
 protected:
-    unsigned int lepesszam;
+    bool nyer;
 public:
     JatekMester( );
     void lepes(vector<Widget*> &amobak, char szin);
