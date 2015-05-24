@@ -19,6 +19,7 @@ protected:
     vector< vector<Widget*> > w;
     vector<Widget*> b;
     StaticTextBox* st;
+    StaticTextBox* st2;
     int amoba_size_x, amoba_size_y;
     char szin;
     unsigned int lepesszam;

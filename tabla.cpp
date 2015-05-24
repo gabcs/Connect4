@@ -31,6 +31,7 @@ Tabla::Tabla(int _x, int _y, int _size_x, int _size_y)
            w.push_back(t);
         }
         st = new StaticTextBox(450,20,150,30,"kezdés");
+        st2 = new StaticTextBox(450,60,150,30,"senki");
     for(unsigned int i = 0; i <= 6; i++){ b[i]->set_vector(w[i]); }
     szin = 'b';
     lepesszam = 0;
@@ -47,6 +48,7 @@ void Tabla::draw()
         }
     }
     st->draw();
+    st2->draw();
 }
 
 void Tabla::handle(event ev)
@@ -65,7 +67,7 @@ void Tabla::handle(event ev)
                 b[i]->action();
             }
     }
-    if( jatek_mester.nyert(w) == true ){ st->set_text("nyertel"); }
+    if( jatek_mester.nyert(w) == true ){ st2->set_text("nyertel"); }
 }
 
 void Tabla::action()
