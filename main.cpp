@@ -11,8 +11,9 @@ int main()
 {
     Application app(640,480, "Potyogtatós amőba");
 
-    Tabla* t = new Tabla(20,20,50,50);
+    Tabla* t = new Tabla(20,30,50,50);
     app.addWidget(t);
+
 
     app.run();
 

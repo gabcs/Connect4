@@ -17,9 +17,11 @@ Button_Select::Button_Select( int x, int y, int size_x, int size_y)
 
 void Button_Select::draw()
 {
+    gout << color(r,g,b) << move_to(x+2,y+2) << line_to(x+size_x/2,y+size_y-2) << move_to(x+size_x-2,y+2) << line_to(x+size_x/2,y+size_y-2);
+
     if( checked == true )
     {
-        gout << color(r,g,b) << move_to(x+2,y+2) << line_to(x+size_x/2,y+size_y-2) << move_to(x+size_x-2,y+2) << line_to(x+size_x/2,y+size_y-2);
+        gout << color(c_r,c_g,c_b) << move_to(x+2,y+2) << line_to(x+size_x/2,y+size_y-2) << move_to(x+size_x-2,y+2) << line_to(x+size_x/2,y+size_y-2);
     }
 }
 

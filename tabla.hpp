@@ -18,7 +18,7 @@ class Tabla : public Widget
 protected:
     vector< vector<Widget*> > w;
     vector<Widget*> b;
-    StaticTextBox* st;
+    StaticTextBox* st1;
     StaticTextBox* st2;
     int amoba_size_x, amoba_size_y;
     char szin;

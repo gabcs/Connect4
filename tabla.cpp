@@ -30,8 +30,8 @@ Tabla::Tabla(int _x, int _y, int _size_x, int _size_y)
            }
            w.push_back(t);
         }
-        st = new StaticTextBox(450,20,150,30,"kezdés");
-        st2 = new StaticTextBox(450,60,150,30,"");
+        st1 = new StaticTextBox(x+size_x+10,y,200,30,"Sárga játékos köre.");
+        st2 = new StaticTextBox(x+size_x+10,y+30,200,30,"");
     for(unsigned int i = 0; i <= 6; i++){ b[i]->set_vector(w[i]); }
     szin = 'b';
     lepesszam = 0;
@@ -48,16 +48,18 @@ void Tabla::draw()
             w[i][j]->draw();
         }
     }
-    st->draw();
+    st1->draw();
     st2->draw();
 }
 
 void Tabla::handle(event ev)
 {
-    if( lepesszam%2 == 0 ){ st->set_text("sárga játékos köre"); }
-    if( lepesszam%2 == 1 ){ st->set_text("piros játékos köre"); }
+    if( lepesszam%2 == 0 ){ st1->set_text("Sárga játékos köre."); }
+    if( lepesszam%2 == 1 ){ st1->set_text("Piros játékos köre."); }
     for(unsigned int i = 0; i <= 6; i++)
     {
+        if(jatek_mester.nyert(w) == false)
+        {
         b[i]->handle(ev);
         if(b[i]->is_checked() == true)
             {
@@ -67,11 +69,12 @@ void Tabla::handle(event ev)
                 b[i]->set_data(szin);
                 b[i]->action();
             }
+        }
     }
     if( jatek_mester.nyert(w) == true )
     {
-        if(jatek_mester.get_nyertes() == 'b'){ nyer_szoveg = "A piros játékos nyert!"; }
-        if(jatek_mester.get_nyertes() == 'c'){ nyer_szoveg = "A sárga játékos nyert!"; }
+        if(jatek_mester.get_nyertes() == 'c'){ nyer_szoveg = "A sárga játékos nyert!"; st1->set_text("VÉGE"); }
+        if(jatek_mester.get_nyertes() == 'b'){ nyer_szoveg = "A piros játékos nyert!"; st1->set_text("VÉGE"); }
         st2->set_text(nyer_szoveg);
     }
 }
