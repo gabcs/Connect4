@@ -3,19 +3,20 @@
 #include "amoba.hpp"
 #include "tabla.hpp"
 #include "button.hpp"
+#include "button_start.hpp"
 
 using namespace std;
 using namespace genv;
 
 int main()
 {
-    Application app(640,480, "Potyogtatós amőba");
+    Application* app = new Application(640,480, "Potyogtatós amőba");
 
-    Tabla* t = new Tabla(20,30,50,50);
-    app.addWidget(t);
+    Button_Start* bs = new Button_Start(5,5,50,30);
+    app->addWidget(bs);
+    bs->set_application(app);
 
-
-    app.run();
+    app->run();
 
     return 0;
 }

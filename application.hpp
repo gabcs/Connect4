@@ -4,13 +4,13 @@
 #include "widgets.hpp"
 #include <vector>
 
-class Application { // grafikus alkalmazás
+class Application {                     // grafikus alkalmazás
     protected:
         std::vector<Widget*> widgets;   // az alkalmazás vezérlői
         int focused;                    // megadja, hogy melyik vezérlõn van a fókusz
         bool isExiting;                 // kilépés alatt áll-e a program
         int SX, SY;                     // képernyõ méret
-        std::string name;                    // az alkalmazás neve
+        std::string name;               // az alkalmazás neve
 
     public:
         Application( int _SX, int _SY, std::string _name );// ablak méret és név alapján program létrehozása
