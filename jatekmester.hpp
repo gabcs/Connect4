@@ -19,6 +19,7 @@ public:
     void lepes(vector<Widget*> &amobak, char szin);
     bool nyert(vector<vector<Widget*> > &w);
     char get_nyertes();
+    void uj_jatek();
 };
 
 

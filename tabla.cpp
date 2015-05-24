@@ -20,7 +20,7 @@ Tabla::Tabla(int _x, int _y, int _size_x, int _size_y)
         {
            vector<Widget*> t;
 
-           Button_Select* bs = new Button_Select(x+i*amoba_size_x,y,amoba_size_x,amoba_size_y);
+           Button_Select* bs = new Button_Select(x+i*amoba_size_x,y+amoba_size_x/2,amoba_size_x,amoba_size_y/2);
            b.push_back(bs);
            for(unsigned int j=0; j<=5; j++)
            {
@@ -33,7 +33,7 @@ Tabla::Tabla(int _x, int _y, int _size_x, int _size_y)
         st1 = new StaticTextBox(x+size_x+10,y,200,30,"Sárga játékos köre.");
         st2 = new StaticTextBox(x+size_x+10,y+30,200,30,"");
     for(unsigned int i = 0; i <= 6; i++){ b[i]->set_vector(w[i]); }
-    szin = 'b';
+    szin = 'a';
     lepesszam = 0;
     nyer_szoveg = "";
 }
@@ -82,4 +82,16 @@ void Tabla::handle(event ev)
 void Tabla::action()
 {
 
+}
+
+void Tabla::uj_jatek()
+{
+    for(unsigned int i = 0; i < 6 ; i++)
+    {
+        for(unsigned int j = 0; j < 5; j++)
+        {
+            w[i][j]->set_pont('a');
+        }
+    }
+    jatek_mester.uj_jatek();
 }
