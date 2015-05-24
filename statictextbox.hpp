@@ -25,6 +25,7 @@ public:
     virtual void set_text(string _selected);
     virtual void set_checked(bool new_check);
     virtual string get_data();
+    void set_color(int _r, int _g, int _b);
 };
 
 #endif // STATICTEXTBOX_HPP_INCLUDED

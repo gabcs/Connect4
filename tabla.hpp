@@ -32,6 +32,7 @@ public:
     virtual void handle( event ev );
     virtual void action();
     void uj_jatek();
+    bool betelt();
 };
 
 

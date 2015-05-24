@@ -28,7 +28,7 @@ void Button_Start::handle(event ev)
 
 void Button_Start::action()
 {
-    Tabla* t = new Tabla(20,30,50,50);
+    Tabla* t = new Tabla(110,30,60,60);
     _app->addWidget(t);
 }
 

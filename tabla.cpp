@@ -31,7 +31,9 @@ Tabla::Tabla(int _x, int _y, int _size_x, int _size_y)
            w.push_back(t);
         }
         st1 = new StaticTextBox(85,5,200,30,"Sárga játékos köre.");
+        st1->set_color(255,255,0);
         st2 = new StaticTextBox(290,5,200,30,"");
+        st2->set_color(0,0,0);
     for(unsigned int i = 0; i <= 6; i++){ b[i]->set_vector(w[i]); }
     szin = 'a';
     lepesszam = 0;
@@ -54,11 +56,11 @@ void Tabla::draw()
 
 void Tabla::handle(event ev)
 {
-    if( lepesszam%2 == 0 ){ st1->set_text("Sárga játékos köre."); }
-    if( lepesszam%2 == 1 ){ st1->set_text("Piros játékos köre."); }
+    if( lepesszam%2 == 0 ){ st1->set_text("Sárga játékos köre."); st1->set_color(255,255,0); }
+    if( lepesszam%2 == 1 ){ st1->set_text("Piros játékos köre."); st1->set_color(255,0,0);   }
     for(unsigned int i = 0; i <= 6; i++)
     {
-        if(jatek_mester.nyert(w) == false)
+        if(jatek_mester.nyert(w) == false && betelt() == false)
         {
         b[i]->handle(ev);
         if(b[i]->is_checked() == true)
@@ -71,11 +73,18 @@ void Tabla::handle(event ev)
             }
         }
     }
-    if( jatek_mester.nyert(w) == true )
+    if( jatek_mester.nyert(w) == true && betelt() == false)
     {
-        if(jatek_mester.get_nyertes() == 'c'){ nyer_szoveg = "A sárga játékos nyert!"; st1->set_text("VÉGE"); }
-        if(jatek_mester.get_nyertes() == 'b'){ nyer_szoveg = "A piros játékos nyert!"; st1->set_text("VÉGE"); }
-        st2->set_text(nyer_szoveg);
+        if(jatek_mester.get_nyertes() == 'c'){ nyer_szoveg = "A sárga játékos nyert!"; st1->set_color(255,255,0); st2->set_color(255,255,0); }
+        if(jatek_mester.get_nyertes() == 'b'){ nyer_szoveg = "A piros játékos nyert!"; st1->set_color(255,0,0); st2->set_color(255,0,0);     }
+        st1->set_text(nyer_szoveg);
+        st2->set_text("VÉGE");
+    }
+    if(betelt() == true && jatek_mester.nyert(w) == false)
+    {
+        nyer_szoveg = "A pálya betelt. Döntetlen.";
+        st1->set_text(nyer_szoveg); st1->set_color(0,0,0);
+        st2->set_text("VÉGE");      st2->set_color(0,0,0);
     }
 }
 
@@ -94,4 +103,17 @@ void Tabla::uj_jatek()
         }
     }
     jatek_mester.uj_jatek();
+}
+
+bool Tabla::betelt()
+{
+    bool betelte = true;
+    for(unsigned int i = 0; i < 6 ; i++)
+    {
+        for(unsigned int j = 0; j < 5; j++)
+        {
+            if(w[i][j]->get_pont() == 'a'){ betelte = false; }
+        }
+    }
+    return betelte;
 }

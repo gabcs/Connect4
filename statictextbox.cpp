@@ -53,3 +53,10 @@ string StaticTextBox::get_data()
     string data = s_text;
     return data;
 }
+
+void StaticTextBox::set_color(int _r, int _g, int _b)
+{
+    b_r = _r;
+    b_g = _g;
+    b_b = _b;
+}
