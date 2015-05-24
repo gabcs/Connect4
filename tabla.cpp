@@ -30,9 +30,9 @@ Tabla::Tabla(int _x, int _y, int _size_x, int _size_y)
            }
            w.push_back(t);
         }
-        st1 = new StaticTextBox(85,5,200,30,"Sárga játékos köre.");
+        st1 = new StaticTextBox(85,5,238,30,"Sárga játékos köre.");
         st1->set_color(255,255,0);
-        st2 = new StaticTextBox(290,5,200,30,"");
+        st2 = new StaticTextBox(323,5,232,30,"");
         st2->set_color(0,0,0);
     for(unsigned int i = 0; i <= 6; i++){ b[i]->set_vector(w[i]); }
     szin = 'a';

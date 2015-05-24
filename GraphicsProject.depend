@@ -2768,15 +2768,16 @@
 	"widgets.hpp"
 	<vector>
 
-1432504692 source:c:\users\csabaattila\desktop\csabi\amoba\main.cpp
+1432511557 source:c:\users\csabaattila\desktop\csabi\amoba\main.cpp
 	"application.hpp"
 	"graphics.hpp"
 	"amoba.hpp"
 	"tabla.hpp"
 	"button.hpp"
 	"button_start.hpp"
+	"button_help.hpp"
 
-1432508834 source:c:\users\csabaattila\desktop\csabi\amoba\statictextbox.cpp
+1432509506 source:c:\users\csabaattila\desktop\csabi\amoba\statictextbox.cpp
 	"statictextbox.hpp"
 	"graphics.hpp"
 	<string>
@@ -2786,7 +2787,7 @@
 	"widgets.hpp"
 	<string>
 
-1432508834 source:c:\users\csabaattila\desktop\csabi\amoba\tabla.cpp
+1432510447 source:c:\users\csabaattila\desktop\csabi\amoba\tabla.cpp
 	"tabla.hpp"
 	"graphics.hpp"
 	"widgets.hpp"
@@ -2843,4 +2844,17 @@
 	<string>
 	"application.hpp"
 	"tabla.hpp"
+
+1432511829 source:c:\users\csabaattila\desktop\csabi\amoba\button_help.cpp
+	"button_help.hpp"
+	"graphics.hpp"
+	"button.hpp"
+	"widgets.hpp"
+	<string>
+
+1432511778 c:\users\csabaattila\desktop\csabi\amoba\button_help.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"button.hpp"
+	<string>
 
