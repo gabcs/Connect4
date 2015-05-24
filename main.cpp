@@ -12,7 +12,7 @@ int main()
 {
     Application* app = new Application(640,480, "Potyogtatós amőba");
 
-    Button_Start* bs = new Button_Start(5,5,50,30);
+    Button_Start* bs = new Button_Start(5,5,75,30);
     app->addWidget(bs);
     bs->set_application(app);
 

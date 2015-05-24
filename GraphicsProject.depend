@@ -2704,11 +2704,11 @@
 	<string>
 	<vector>
 
-1431718601 source:c:\users\csabaattila\desktop\csabi\amoba\application.cpp
+1432505908 source:c:\users\csabaattila\desktop\csabi\amoba\application.cpp
 	"application.hpp"
 	"graphics.hpp"
 
-1432502781 c:\users\csabaattila\desktop\csabi\amoba\application.hpp
+1432507452 c:\users\csabaattila\desktop\csabi\amoba\application.hpp
 	"widgets.hpp"
 	<vector>
 
@@ -2766,7 +2766,7 @@
 	"widgets.hpp"
 	<vector>
 
-1432502983 source:c:\users\csabaattila\desktop\csabi\amoba\main.cpp
+1432504692 source:c:\users\csabaattila\desktop\csabi\amoba\main.cpp
 	"application.hpp"
 	"graphics.hpp"
 	"amoba.hpp"
@@ -2784,7 +2784,7 @@
 	"widgets.hpp"
 	<string>
 
-1432501119 source:c:\users\csabaattila\desktop\csabi\amoba\tabla.cpp
+1432503534 source:c:\users\csabaattila\desktop\csabi\amoba\tabla.cpp
 	"tabla.hpp"
 	"graphics.hpp"
 	"widgets.hpp"
