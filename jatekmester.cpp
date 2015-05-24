@@ -23,7 +23,7 @@ void JatekMester::lepes(vector<Widget*> &amobak, char szin)
     }
 }
 
-void JatekMester::nyert(vector<vector<Widget*> > &w)
+bool JatekMester::nyert(vector<vector<Widget*> > &w)
 {
     for(int i = 0; i < 7; i++)
     {
@@ -31,12 +31,14 @@ void JatekMester::nyert(vector<vector<Widget*> > &w)
         {
             char jatekos = w[i][j]->get_pont();
             ///egy sorban van-e a négy
-            if(j-3 >= 0&& j+3 < 7)
+            if( i+3 < 7 )
             {
-                nyer = w[i][j-3]->get_pont() == w[i][j-2]->get_pont() == w[i][j-1]->get_pont() == w[i][j]->get_pont();
-                cout << nyer << endl;
+                if( w[i][j]->get_pont() == w[i+1][j]->get_pont() == w[i+2][j]->get_pont() == w[i+3][j]->get_pont())
+                {
+                    nyer = true;
+                }
             }
         }
     }
-    if(nyer == true){gout << move_to(200,400) << text("nyert");}
+    return nyer;
 }

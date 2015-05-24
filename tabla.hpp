@@ -5,6 +5,8 @@
 #include "widgets.hpp"
 #include "amoba.hpp"
 #include "button_select.hpp"
+#include "jatekmester.hpp"
+#include "statictextbox.hpp"
 
 #include <vector>
 
@@ -16,9 +18,11 @@ class Tabla : public Widget
 protected:
     vector< vector<Widget*> > w;
     vector<Widget*> b;
+    StaticTextBox* st;
     int amoba_size_x, amoba_size_y;
     char szin;
     unsigned int lepesszam;
+    JatekMester jatek_mester;
 public:
     Tabla(int _x, int _y, int _size_x, int _size_y);
 

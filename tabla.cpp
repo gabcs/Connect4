@@ -4,6 +4,7 @@
 #include "widgets.hpp"
 #include "amoba.hpp"
 #include "button_select.hpp"
+#include "statictextbox.hpp"
 
 #include <vector>
 
@@ -29,6 +30,7 @@ Tabla::Tabla(int _x, int _y, int _size_x, int _size_y)
            }
            w.push_back(t);
         }
+        st = new StaticTextBox(450,20,150,30,"kezdés");
     for(unsigned int i = 0; i <= 6; i++){ b[i]->set_vector(w[i]); }
     szin = 'b';
     lepesszam = 0;
@@ -44,11 +46,13 @@ void Tabla::draw()
             w[i][j]->draw();
         }
     }
+    st->draw();
 }
 
 void Tabla::handle(event ev)
 {
-
+    if( lepesszam%2 == 0 ){ st->set_text("sárga játékos köre"); }
+    if( lepesszam%2 == 1 ){ st->set_text("piros játékos köre"); }
     for(unsigned int i = 0; i <= 6; i++)
     {
         b[i]->handle(ev);
@@ -61,6 +65,7 @@ void Tabla::handle(event ev)
                 b[i]->action();
             }
     }
+    if( jatek_mester.nyert(w) == true ){ st->set_text("nyertel"); }
 }
 
 void Tabla::action()

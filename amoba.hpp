@@ -10,7 +10,7 @@ using namespace std;
 class Amoba : public Widget
 {
 protected:
-    char pont; // a = üres, b = piros játékos, c = sárga játékos
+    char pont; /// a = üres, b = piros játékos, c = sárga játékos
 public:
     Amoba(int _x, int _y, int _size_x, int _size_y);
 

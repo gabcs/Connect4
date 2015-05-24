@@ -16,7 +16,7 @@ protected:
 public:
     JatekMester( );
     void lepes(vector<Widget*> &amobak, char szin);
-    void nyert(vector<vector<Widget*> > &w);
+    bool nyert(vector<vector<Widget*> > &w);
 };
 
 
