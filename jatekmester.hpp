@@ -12,10 +12,11 @@ using namespace std;
 class JatekMester
 {
 protected:
-    vector<Widget*> am;
+    unsigned int lepesszam;
 public:
     JatekMester( );
     void lepes(vector<Widget*> &amobak, char szin);
+    void nyert(vector<vector<Widget*> > &w);
 };
 
 

@@ -12,7 +12,6 @@ Button_Select::Button_Select( int x, int y, int size_x, int size_y)
            :Button( x, y, size_x, size_y, "" )
 {
     a = NULL;
-    bs = NULL;
     szin = 'a';
 }
 
@@ -26,13 +25,9 @@ void Button_Select::draw()
 
 void Button_Select::handle(event ev)
 {
-    if( ev.type == ev_mouse && is_selected(ev.pos_x, ev.pos_y) )
+    if( ev.type == ev_mouse && is_selected(ev.pos_x, ev.pos_y) && ev.button == btn_left )
     {
         checked = true;
-        if(ev.button == btn_left )
-        {
-            action();
-        }
     }
     else checked = false;
 }

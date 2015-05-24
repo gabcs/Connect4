@@ -48,11 +48,18 @@ void Tabla::draw()
 
 void Tabla::handle(event ev)
 {
-    szin =
+
     for(unsigned int i = 0; i <= 6; i++)
     {
-        b[i]->set_data(szin);
         b[i]->handle(ev);
+        if(b[i]->is_checked() == true)
+            {
+                lepesszam = lepesszam + 1;
+                if( lepesszam%2 == 0 ){ szin = 'b'; }
+                if( lepesszam%2 == 1 ){ szin = 'c'; }
+                b[i]->set_data(szin);
+                b[i]->action();
+            }
     }
 }
 

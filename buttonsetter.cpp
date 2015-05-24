@@ -39,12 +39,6 @@ void Button_Setter::handle(event ev)
 void Button_Setter::action()
 {
     lepesszam = lepesszam+1;
-    if( lepesszam%2 == 0 ){ szin = b; }
-    if( lepesszam%2 != 0 ){ szin = c; }
-}
-
-
-void Button_Select::get_pont()
-{
-    return szin;
+    if( lepesszam%2 == 0 ){ szin = 'b'; }
+    if( lepesszam%2 != 0 ){ szin = 'c'; }
 }
