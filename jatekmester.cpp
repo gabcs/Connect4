@@ -12,7 +12,8 @@ using namespace std;
 
 JatekMester::JatekMester( )
 {
-    nyer == false;
+    nyer = false;
+    nyertes = 'a';
 }
 
 void JatekMester::lepes(vector<Widget*> &amobak, char szin)
@@ -51,6 +52,8 @@ bool JatekMester::nyert(vector<vector<Widget*> > &w)
             {
                 if( w[i+1][j-1]->get_pont() == 'b' && w[i+2][j-2]->get_pont() == 'b' && w[i+3][j-3]->get_pont() == 'b'){ nyer = true; }
             }
+            ///nyertes azonosítójának tárolása
+            if(nyer == true){ nyertes = 'b'; }
         }
         ///sárga játékos
         if(w[i][j]->get_pont() == 'c')
@@ -63,19 +66,26 @@ bool JatekMester::nyert(vector<vector<Widget*> > &w)
             ///van-e négy egy oszlopban
             if( j+3 < 6 )
             {
-                if( w[i][j+1]->get_pont() == 'b' && w[i][j+2]->get_pont() == 'b' && w[i][j+3]->get_pont() == 'b'){ nyer = true; }
+                if( w[i][j+1]->get_pont() == 'c' && w[i][j+2]->get_pont() == 'c' && w[i][j+3]->get_pont() == 'c'){ nyer = true; }
             }
             ///van-e négy átlósan
             if(i+3 < 7 && j+3 < 6 )
             {
-                if( w[i+1][j+1]->get_pont() == 'b' && w[i+2][j+2]->get_pont() == 'b' && w[i+3][j+3]->get_pont() == 'b'){ nyer = true; }
+                if( w[i+1][j+1]->get_pont() == 'c' && w[i+2][j+2]->get_pont() == 'c' && w[i+3][j+3]->get_pont() == 'c'){ nyer = true; }
             }
             if(i+3 < 7 && j-3 > 0 )
             {
-                if( w[i+1][j-1]->get_pont() == 'b' && w[i+2][j-2]->get_pont() == 'b' && w[i+3][j-3]->get_pont() == 'b'){ nyer = true; }
+                if( w[i+1][j-1]->get_pont() == 'c' && w[i+2][j-2]->get_pont() == 'c' && w[i+3][j-3]->get_pont() == 'c'){ nyer = true; }
             }
+            ///nyertes azonosítójának tárolása
+            if(nyer == true){ nyertes = 'c'; }
         }
     }
     }
     return nyer;
+}
+
+char JatekMester::get_nyertes()
+{
+    return nyertes;
 }

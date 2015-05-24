@@ -31,10 +31,11 @@ Tabla::Tabla(int _x, int _y, int _size_x, int _size_y)
            w.push_back(t);
         }
         st = new StaticTextBox(450,20,150,30,"kezdés");
-        st2 = new StaticTextBox(450,60,150,30,"senki");
+        st2 = new StaticTextBox(450,60,150,30,"");
     for(unsigned int i = 0; i <= 6; i++){ b[i]->set_vector(w[i]); }
     szin = 'b';
     lepesszam = 0;
+    nyer_szoveg = "";
 }
 
 void Tabla::draw()
@@ -67,7 +68,12 @@ void Tabla::handle(event ev)
                 b[i]->action();
             }
     }
-    if( jatek_mester.nyert(w) == true ){ st2->set_text("nyertel"); }
+    if( jatek_mester.nyert(w) == true )
+    {
+        if(jatek_mester.get_nyertes() == 'b'){ nyer_szoveg = "A piros játékos nyert!"; }
+        if(jatek_mester.get_nyertes() == 'c'){ nyer_szoveg = "A sárga játékos nyert!"; }
+        st2->set_text(nyer_szoveg);
+    }
 }
 
 void Tabla::action()

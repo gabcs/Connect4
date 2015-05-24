@@ -13,10 +13,12 @@ class JatekMester
 {
 protected:
     bool nyer;
+    char nyertes;
 public:
     JatekMester( );
     void lepes(vector<Widget*> &amobak, char szin);
     bool nyert(vector<vector<Widget*> > &w);
+    char get_nyertes();
 };
 
 

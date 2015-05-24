@@ -6,13 +6,13 @@ using namespace genv;
 using namespace std;
 
 StaticTextBox::StaticTextBox( int _x, int _y, int _size_x, int _size_y, string _s_text )
-    : Widget( _x, _y, _size_x, _size_y, 0, 0, 0 )
+    : Widget( _x, _y, _size_x, _size_y, 255, 255, 255 )
 {
     s_text = _s_text;
     checked = false;
-    b_r = 255;
-    b_g = 255;
-    b_b = 255;
+    b_r = 0;
+    b_g = 0;
+    b_b = 0;
 }
 
 void StaticTextBox::draw()

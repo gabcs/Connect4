@@ -24,6 +24,7 @@ protected:
     char szin;
     unsigned int lepesszam;
     JatekMester jatek_mester;
+    string nyer_szoveg;
 public:
     Tabla(int _x, int _y, int _size_x, int _size_y);
 
