@@ -2699,7 +2699,7 @@
 1429788293 c:\users\csabaattila\desktop\csabi\amoba\include\graphics.hpp
 	<string>
 
-1432419010 c:\users\csabaattila\desktop\csabi\amoba\widgets.hpp
+1432512628 c:\users\csabaattila\desktop\csabi\amoba\widgets.hpp
 	"graphics.hpp"
 	<string>
 	<vector>
@@ -2745,7 +2745,7 @@
 	"amoba.hpp"
 	"jatekmester.hpp"
 
-1432508113 c:\users\csabaattila\desktop\csabi\amoba\tabla.hpp
+1432513299 c:\users\csabaattila\desktop\csabi\amoba\tabla.hpp
 	"graphics.hpp"
 	"widgets.hpp"
 	"amoba.hpp"
@@ -2754,7 +2754,7 @@
 	"statictextbox.hpp"
 	<vector>
 
-1432500636 source:c:\users\csabaattila\desktop\csabi\amoba\jatekmester.cpp
+1432512662 source:c:\users\csabaattila\desktop\csabi\amoba\jatekmester.cpp
 	"jatekmester.hpp"
 	"graphics.hpp"
 	"widgets.hpp"
@@ -2763,7 +2763,7 @@
 	"button_select.hpp"
 	<iostream>
 
-1432500636 c:\users\csabaattila\desktop\csabi\amoba\jatekmester.hpp
+1432513126 c:\users\csabaattila\desktop\csabi\amoba\jatekmester.hpp
 	"graphics.hpp"
 	"widgets.hpp"
 	<vector>
@@ -2787,7 +2787,7 @@
 	"widgets.hpp"
 	<string>
 
-1432510447 source:c:\users\csabaattila\desktop\csabi\amoba\tabla.cpp
+1432513299 source:c:\users\csabaattila\desktop\csabi\amoba\tabla.cpp
 	"tabla.hpp"
 	"graphics.hpp"
 	"widgets.hpp"
@@ -2796,7 +2796,7 @@
 	"statictextbox.hpp"
 	<vector>
 
-1429793389 source:c:\users\csabaattila\desktop\csabi\amoba\widgets.cpp
+1432512806 source:c:\users\csabaattila\desktop\csabi\amoba\widgets.cpp
 	"widgets.hpp"
 	"graphics.hpp"
 	<string>
@@ -2845,7 +2845,7 @@
 	"application.hpp"
 	"tabla.hpp"
 
-1432511829 source:c:\users\csabaattila\desktop\csabi\amoba\button_help.cpp
+1432511922 source:c:\users\csabaattila\desktop\csabi\amoba\button_help.cpp
 	"button_help.hpp"
 	"graphics.hpp"
 	"button.hpp"

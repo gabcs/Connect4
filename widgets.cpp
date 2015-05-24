@@ -38,12 +38,14 @@ void Widget::handle(event ev) {
 }
 
 bool Widget::is_checked() const {
+    return checked;
 }
 
 void Widget::set_checked(bool new_check){
 }
 
 string Widget::get_text(){
+    return "";
 }
 
 void Widget::set_text(string _selected){
@@ -53,12 +55,15 @@ void Widget::set_num(int _num){
 }
 
 int Widget::get_num(){
+    return 0;
 }
 
 string Widget::get_data(){
+    return "";
 }
 
 int Widget::get_clicked(){
+    return 0;
 }
 
 void Widget::set_y(int _y){

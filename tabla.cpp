@@ -62,14 +62,17 @@ void Tabla::handle(event ev)
     {
         if(jatek_mester.nyert(w) == false && betelt() == false)
         {
-        b[i]->handle(ev);
-        if(b[i]->is_checked() == true)
+            if( w[i][0]->get_pont() == 'a' )
             {
-                lepesszam = lepesszam + 1;
-                if( lepesszam%2 == 0 ){ szin = 'b'; }
-                if( lepesszam%2 == 1 ){ szin = 'c'; }
-                b[i]->set_data(szin);
-                b[i]->action();
+                b[i]->handle(ev);
+                if(b[i]->is_checked() == true)
+                {
+                    lepesszam = lepesszam + 1;
+                    if( lepesszam%2 == 0 ){ szin = 'b'; }
+                    if( lepesszam%2 == 1 ){ szin = 'c'; }
+                    b[i]->set_data(szin);
+                    b[i]->action();
+                }
             }
         }
     }
@@ -91,18 +94,6 @@ void Tabla::handle(event ev)
 void Tabla::action()
 {
 
-}
-
-void Tabla::uj_jatek()
-{
-    for(unsigned int i = 0; i < 6 ; i++)
-    {
-        for(unsigned int j = 0; j < 5; j++)
-        {
-            w[i][j]->set_pont('a');
-        }
-    }
-    jatek_mester.uj_jatek();
 }
 
 bool Tabla::betelt()

@@ -18,12 +18,22 @@ void Amoba::draw()
     if( pont == 'a' ) { gout << color(0,0,0);     }
     if( pont == 'b' ) { gout << color(255,0,0);   }
     if( pont == 'c' ) { gout << color(255,255,0); }
-    gout << box(size_x-8,size_y-8);
+
+        for( int i=1; i<2*(size_x/2-2); ++i ){
+            for( int j=1; j<2*r; ++j ){
+                if( (x+size_x/2)-(size_x/2-2)+i<640 && (x+size_x/2)-(size_x/2-2)+i>=0 && (y+size_y/2)-(size_x/2-2)+j<480 && (y+size_y/2)-(size_x/2-2)+j>=0 ){
+                    gout << move_to((x+size_x/2)-(size_x/2-2)+i,(y+size_y/2)-(size_x/2-2)+j);
+                    if ( (((size_x/2-2)-j)*((size_x/2-2)-j)+((size_x/2-2)-i)*((size_x/2-2)-i)) <= (size_x/2-2)*(size_x/2-2) ) {
+                        gout << dot;
+                    }
+                }
+            }
+        }
 }
 
 void Amoba::handle(event ev)
 {
-    ///if( ev.type == ev_mouse && is_selected(ev.pos_x, ev.pos_y) && ev.button==btn_left ){ action(); }
+
 }
 
 void Amoba::action()

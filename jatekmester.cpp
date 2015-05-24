@@ -85,9 +85,3 @@ char JatekMester::get_nyertes()
 {
     return nyertes;
 }
-
-void JatekMester::uj_jatek()
-{
-    nyer == false;
-    nyertes = 'a';
-}

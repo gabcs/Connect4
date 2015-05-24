@@ -33,7 +33,7 @@ class Widget {
         virtual int get_clicked();
         virtual void set_y(int _y);
         virtual void action() {}
-        virtual char get_pont(){}
+        virtual char get_pont(){return 'd'; }
         virtual void set_pont(char new_pont){}
         virtual void set_vector(vector<Widget*> &w){}
         virtual void set_data(char _szin) {}
