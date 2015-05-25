@@ -16,6 +16,8 @@ class Button_Start : public Button
 {
 protected:
     Application* _app;
+    Tabla* _t;
+    bool new_game;
 public:
     Button_Start(int _x, int _y, int _size_x, int _size_y);
     void handle(event ev);

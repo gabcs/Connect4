@@ -14,6 +14,8 @@ Button_Start::Button_Start(int _x, int _y, int _size_x, int _size_y)
         :Button( _x, _y, _size_x, _size_y, "START")
 {
         _app = NULL;
+        _t = NULL;
+        new_game = false;
 }
 
 void Button_Start::handle(event ev)
@@ -22,14 +24,24 @@ void Button_Start::handle(event ev)
     {
         checked = true;
         action();
+        new_game = true;
     }
     else checked = false;
 }
 
 void Button_Start::action()
 {
-    Tabla* t = new Tabla(110,30,60,60);
-    _app->addWidget(t);
+    if(new_game == false)
+    {
+        Tabla* t = new Tabla(110,30,60,60);
+        _app->addWidget(t);
+        _t = t;
+    }
+    if(new_game == true)
+    {
+        _t->uj_jatek();
+    }
+
 }
 
 void Button_Start::set_application(Application* __app)

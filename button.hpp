@@ -3,8 +3,6 @@
 
 #include "graphics.hpp"
 #include "widgets.hpp"
-#include "application.hpp"
-#include <string>
 
 using namespace std;
 

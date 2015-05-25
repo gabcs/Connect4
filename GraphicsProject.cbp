@@ -46,8 +46,12 @@
 		<Unit filename="application.hpp" />
 		<Unit filename="button.cpp" />
 		<Unit filename="button.hpp" />
+		<Unit filename="button_help.cpp" />
+		<Unit filename="button_help.hpp" />
 		<Unit filename="button_select.cpp" />
 		<Unit filename="button_select.hpp" />
+		<Unit filename="button_start.cpp" />
+		<Unit filename="button_start.hpp" />
 		<Unit filename="jatekmester.cpp" />
 		<Unit filename="jatekmester.hpp" />
 		<Unit filename="main.cpp" />

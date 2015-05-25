@@ -42,6 +42,7 @@ Tabla::Tabla(int _x, int _y, int _size_x, int _size_y)
 
 void Tabla::draw()
 {
+    gout << color(25,25,25) << move_to(x - 2, y - 2 + amoba_size_y/2) << box(size_x+4,size_y+amoba_size_y/2+4);
     for(unsigned int i = 0; i <= 6; i++)
     {
         b[i]->draw();
@@ -94,6 +95,26 @@ void Tabla::handle(event ev)
 void Tabla::action()
 {
 
+}
+
+void Tabla::uj_jatek()
+{
+    for(unsigned int i = 0; i <= 6; i++)
+    {
+        b[i]->set_checked(false);
+        for(unsigned int j = 0; j <= 5; j++)
+        {
+            w[i][j]->set_pont('a');
+            jatek_mester.uj_jatek();
+        }
+    }
+    st1->set_color(255,255,0);
+    st1->set_text("Sárga játékos köre.");
+    st2->set_color(0,0,0);
+    st2->set_text("");
+    szin = 'a';
+    lepesszam = 0;
+    nyer_szoveg = "";
 }
 
 bool Tabla::betelt()

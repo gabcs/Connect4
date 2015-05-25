@@ -1,6 +1,5 @@
 #include "button.hpp"
 #include "graphics.hpp"
-#include <string>
 #include <sstream>
 
 using namespace genv;

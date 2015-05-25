@@ -1,8 +1,4 @@
 #include "application.hpp"
-#include "graphics.hpp"
-#include "amoba.hpp"
-#include "tabla.hpp"
-#include "button.hpp"
 #include "button_start.hpp"
 #include "button_help.hpp"
 
