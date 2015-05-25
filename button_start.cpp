@@ -33,7 +33,7 @@ void Button_Start::action()
 {
     if(new_game == false)
     {
-        Tabla* t = new Tabla(110,30,60,60);
+        Tabla* t = new Tabla(110,60,60,60);
         _app->addWidget(t);
         _t = t;
     }

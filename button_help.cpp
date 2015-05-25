@@ -41,7 +41,7 @@ void Button_Help::draw()
         gout << move_to(5,35) << color(125,125,125) << box(630,50);
         gout << color(0,0,0);
         gout << move_to(6,35+gout.cdescent()+gout.cascent());
-        gout << text("Új játék indításához nyomd meg a 'START' gombot.");
+        gout << text("Új játék indításához nyomd meg a 'START' gombot. Két játékos játszhatja.");
         gout << move_to(6,35+2*(gout.cdescent()+gout.cascent()));
         gout << text("Játék közben amõbádat az oszlopok feletti nyilak kiválasztásával teheted le.");
     }

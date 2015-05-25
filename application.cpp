@@ -78,6 +78,6 @@ void Application::rajzol() {                                /// kezdőkép kiraj
         }
         bef.close();
     }
-        gout << stamp(kep, 42, 174);
-        gout << move_to(315,270) << color(255,255,0) << text("Made by: Gabor Csaba Attila");
+        gout << stamp(kep, 42, 190);
+        gout << move_to(315,285) << color(255,255,0) << text("Made by: Gabor Csaba Attila");
 }
