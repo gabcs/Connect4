@@ -120,7 +120,7 @@ void Tabla::uj_jatek()
 bool Tabla::betelt()
 {
     bool betelte = true;
-    for(unsigned int i = 0; i < 6 ; i++)
+    for(unsigned int i = 0; i < 7 ; i++)
     {
         for(unsigned int j = 0; j < 5; j++)
         {
